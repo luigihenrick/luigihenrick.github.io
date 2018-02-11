@@ -1,3 +1,5 @@
+![Minha Foto](/img/me-100px.jpg)
+
 # Minha página de projetos pessoais
 
 Olá, meu nome é Luigi, tenho 21 anos e criei essa página para adicionar projetos pessoais e quem sabe compartilhar algum conhecimento.
@@ -10,9 +12,9 @@ Esse jogo foi criado a partir de um [curso no YouTube](https://www.youtube.com/w
 
 [Demo](http://ec2-18-219-127-251.us-east-2.compute.amazonaws.com/snake/) 
 
-## Jogo Snake!
+## Curso de Análise de Algoritmos
 
-Exercícios resolvidos de curso feito no IME-USP de análise de algoritmos.
+Exercícios resolvidos do curso 'Tópicos de Programação' feito no IME-USP.
 
 [Source](https://github.com/luigihenrick/topicos-programacao) 
 
