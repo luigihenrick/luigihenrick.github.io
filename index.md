@@ -6,11 +6,19 @@ Olá, meu nome é Luigi, tenho 21 anos e criei essa página para adicionar proje
 
 ## Jogo Snake!
 
-Jogo de snake responsivo criado a partir de um [curso no YouTube](https://www.youtube.com/watch?v=YltacqQx-IY&list=PL1EkVGo1AQ0Gt1dxKl4e35DY4G9qb5W7_) com a adição de funcionalidades.
+Jogo de snake responsivo.
 
 [Source](https://github.com/luigihenrick/snake) 
 
 [Demo](http://luigihenrick.ddns.net/snake/) 
+
+## Chat
+
+Chat criado em NodeJs utilizando Socket.io
+
+[Source](https://github.com/luigihenrick/nodejs-chat) 
+
+[Demo](http://luigihenrick.ddns.net:8080) 
 
 ## Curso de Análise de Algoritmos
 
