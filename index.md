@@ -4,29 +4,26 @@ Olá, meu nome é Luigi, tenho 21 anos e criei essa página para adicionar proje
 
 ## Jogo Snake!
 
-Jogo de snake responsivo.
+Jogo de snake responsivo criado utilizando HTML5, CSS e JavaScript.
 
-[Source](https://github.com/luigihenrick/snake) 
-
-[Demo](http://luigihenrick.ddns.net/snake/) 
+[[Source Code]](https://github.com/luigihenrick/snake) 
+[[Live Demo]](http://luigihenrick.ddns.net/snake/) 
 
 ## Chat
 
 Chat criado em NodeJs utilizando Socket.io
 
-[Source](https://github.com/luigihenrick/nodejs-chat) 
-
-[Demo](http://luigihenrick.ddns.net:8080) 
+[[Source Code]](https://github.com/luigihenrick/nodejs-chat) 
+[[Live Demo]](http://luigihenrick.ddns.net:8080) 
 
 ## Curso de Análise de Algoritmos
 
-Exercícios resolvidos do curso 'Tópicos de Programação' feito no IME-USP.
+Exercícios resolvidos em C, do curso 'Tópicos de Programação' feito no IME-USP.
 
-[Source](https://github.com/luigihenrick/topicos-programacao) 
+[[Source Code]](https://github.com/luigihenrick/topicos-programacao) 
 
 ## JsFiddles
 
 Paǵina com alguns exemplos JS para máscaras, validações e outras funções.
 
-[JsFiddle](https://jsfiddle.net/user/luigihenrick/fiddles/) 
-
+[[JsFiddle Page]](https://jsfiddle.net/user/luigihenrick/fiddles/) 
