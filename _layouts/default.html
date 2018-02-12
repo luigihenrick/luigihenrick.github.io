@@ -2,7 +2,7 @@
 <html lang="{{ site.lang | default: "pt-BR" }}">
   <head>
     <meta charset="UTF-8">
-
+    <title>{{site.title}}</title>
 {% seo %}
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#157878">
@@ -12,7 +12,7 @@
   </head>
   <body>
     <section class="page-header">
-      <img src="{{ site.imgUrl }}" alt="My Photo" style="border-radius: 50%;">
+      <img src="{{ site.img_url }}" alt="My Photo" style="border-radius: 50%;">
       <h1 class="project-name">{{ site.title | default: site.github.repository_name }}</h1>
       <h2 class="project-tagline">{{ site.description | default: site.github.project_tagline }}</h2>
       {% if site.github.is_project_page %}
