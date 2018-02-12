@@ -1,6 +1,4 @@
-![Minha Foto](/img/me-100px.jpg)
-
-# Minha página de projetos pessoais
+# Minha página de projetos
 
 Olá, meu nome é Luigi, tenho 21 anos e criei essa página para adicionar projetos pessoais e quem sabe compartilhar algum conhecimento.
 
