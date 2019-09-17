@@ -1,6 +1,13 @@
 # Minha página de projetos
 
-Olá, meu nome é Luigi, tenho 22 anos e criei essa página para adicionar projetos pessoais e, quem sabe, compartilhar algum conhecimento.
+Olá, meu nome é Luigi, tenho 23 anos e criei essa página para adicionar projetos pessoais e, quem sabe, compartilhar algum conhecimento.
+
+## Chatbot Rose
+
+Chatbot desenvolvido a partir do watson conversation utilizando NodeJS para comunicação e interface.
+
+[[Source Code]](https://github.com/luigihenrick/chatbot-rose) 
+[[Live Demo]](https://chatbot-rose.herokuapp.com/) 
 
 ## Jogo Snake!
 
