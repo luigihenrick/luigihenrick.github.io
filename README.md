@@ -2,4 +2,4 @@
 
 Página com meus projetos pessoais.
 
-[Clique aqui para acessar! :earth_americas:](luigihenrick.github.io)
+[Clique aqui para acessar! :earth_americas:](https://luigihenrick.github.io/)
