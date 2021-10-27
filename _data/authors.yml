@@ -2,12 +2,18 @@
 # Must be the same as `author` in `_config.yml`.
 # Change `author1` to your shortname.
 author1:
+<<<<<<< HEAD
   name:              Luigi Henrick
   email:             luigihenrick@gmail.com
+=======
+  name:              <firstname> <lastname>
+  email:             <mail@domain.tld>
+>>>>>>> develop
 
   # Used at the bottom of each page and at the top of the `about` layout
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
   about:             |
+<<<<<<< HEAD
     Professional with over six years of experience as a developer. Mostly worked in the financial market delivering products for large-scale and distributed systems.
     I've already worked for small and big companies as Itaú bank, XP Inc, and as a consultant for Original bank and Tecpay (point of sale system).
 
@@ -19,15 +25,36 @@ author1:
     #srcset:
     #  1x:            https://placehold.it/128x128
     #  2x:            https://placehold.it/256x256
+=======
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    
+    Open `_data/authors.yml` to edit this text.
+
+  # This photo will be used in the about section
+  picture:
+    path:            https://placehold.it/128x128
+    # srcset is optional, but can be used to provide higher res versions for retina displays
+    srcset:
+      1x:            https://placehold.it/128x128
+      2x:            https://placehold.it/256x256
+>>>>>>> develop
 
   # Social media icons in sidebar
   # Comment/uncommet to show/hide
   # Rearrange to change the order in which they appear
   social:
+<<<<<<< HEAD
     github:          luigihenrick
     linkedin:        luigihenrick
     email:           luigihenrick@gmail.com
     # twitter:         <username>
+=======
+    twitter:         <username>
+    github:          <username>
+    # email:           <mail@domain.tld>
+>>>>>>> develop
     # rss:             https://<url>/feed.xml
     # facebook:        <username>
     # google:          <number>
@@ -56,6 +83,10 @@ author1:
     # npm:             <username>
     # hackernews:      <username>
     # trello:          <firstnamelastname>
+<<<<<<< HEAD
+=======
+    # linkedin:        <firstname-lastname-string>
+>>>>>>> develop
     # xing:            <firstname_lastname_counter>
     # blogger:         <number>
     # delicious:       <username>
@@ -65,6 +96,7 @@ author1:
     # keybase          <username>
 
 # Another author (optional)
+<<<<<<< HEAD
 # author2:
 #   name:              Luigi Feitoza
 #   email:             luigihenrick@gmail.com
@@ -79,3 +111,18 @@ author1:
 #   twitter:           <username>
 #   github:            luigihenrick
 
+=======
+author2:
+  name:              <firtname> <lastname>
+  email:             <mail@domain.tld>
+  about:             |
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+
+    Open `_data/authors.yml` to edit this text.
+
+  picture:           https://placehold.it/128x128
+  twitter:           <username>
+  github:            <username>
+>>>>>>> develop
