@@ -281,6 +281,7 @@ DEPENDENCIES
   jekyll (~> 3.8)
   jekyll-compose
   jekyll-include-cache
+  nokogiri (>= 1.12.5)
 
 BUNDLED WITH
    2.2.29
