@@ -25,7 +25,7 @@ GEM
       http_parser.rb (~> 0.6.0)
     ethon (0.15.0)
       ffi (>= 1.15.0)
-    eventmachine (1.2.7)
+    eventmachine (1.2.7-x64-mingw32)
     execjs (2.8.1)
     faraday (1.8.0)
       faraday-em_http (~> 1.0)
@@ -46,7 +46,7 @@ GEM
     faraday-net_http_persistent (1.2.0)
     faraday-patron (1.0.0)
     faraday-rack (1.0.0)
-    ffi (1.15.4)
+    ffi (1.15.4-x64-mingw32)
     forwardable-extended (2.6.0)
     gemoji (3.0.1)
     github-pages (221)
@@ -230,7 +230,7 @@ GEM
       jekyll-seo-tag (~> 2.1)
     minitest (5.14.4)
     multipart-post (2.1.1)
-    nokogiri (1.12.5-x86_64-linux)
+    nokogiri (1.12.5-x64-mingw32)
       racc (~> 1.4)
     octokit (4.21.0)
       faraday (>= 0.9)
@@ -266,13 +266,17 @@ GEM
       ethon (>= 0.9.0)
     tzinfo (1.2.9)
       thread_safe (~> 0.1)
+    tzinfo-data (1.2021.5)
+      tzinfo (>= 1.0.0)
     unf (0.1.4)
       unf_ext
-    unf_ext (0.0.8)
+    unf_ext (0.0.8-x64-mingw32)
     unicode-display_width (1.8.0)
+    wdm (0.1.1)
     zeitwerk (2.5.1)
 
 PLATFORMS
+  x64-mingw32
   x86_64-linux
 
 DEPENDENCIES
@@ -281,7 +285,10 @@ DEPENDENCIES
   jekyll (~> 3.8)
   jekyll-compose
   jekyll-include-cache
+  jemoji
   nokogiri (>= 1.12.5)
+  tzinfo-data
+  wdm
 
 BUNDLED WITH
-   2.2.29
+   2.2.30

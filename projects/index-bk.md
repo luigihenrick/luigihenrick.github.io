@@ -10,8 +10,10 @@ permalink: /projects/
 
 Here I'll put some personal projects published.
 
+I give this plugin two :+1:! it's raining :cat:s and :dog:s!
+
 ## Chatbot Rose
-* [chatbot]{:.heading.flip-title} --- Chatbot desenvolvido a partir do watson conversation utilizando NodeJS para comunicação e interface.
+Chatbot desenvolvido a partir do watson conversation utilizando NodeJS para comunicação e interface.
 
 [[Source Code]](https://github.com/luigihenrick/chatbot-rose) 
 [[Live Demo]](https://chatbot-rose.herokuapp.com/) 
@@ -57,7 +59,7 @@ While this manual tries to be beginner-friendly, as a user of Jekyll it is assum
 
 
 ## Getting started
-* [Install]{:.heading.flip-title} --- How to install and run Hydejack.
+* [Chatbot]{:.heading.flip-title} --- Chatbot
 * [Upgrade]{:.heading.flip-title} --- You can skip this if you haven't used Hydejack before.
 * [Config]{:.heading.flip-title} --- Once Jekyll is running you can start editing your config file.
 {:.related-posts.faded}
@@ -87,8 +89,5 @@ While this manual tries to be beginner-friendly, as a user of Jekyll it is assum
 [LICENSE]: ../LICENSE.md
 [NOTICE]: ../NOTICE.md
 [CHANGELOG]: ../CHANGELOG.md
-<<<<<<< HEAD
 
-[chatbot]: https://raw.githubusercontent.com/luigihenrick/chatbot-rose/master/README.md
-=======
->>>>>>> develop
+[Chatbot]: rose-chatbot.md

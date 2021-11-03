@@ -19,6 +19,7 @@ group :jekyll_plugins do
   gem "jekyll-include-cache"
   gem "jekyll-compose"
   gem "nokogiri", ">= 1.12.5"
+  gem 'jemoji'
 end
 
 gem 'wdm' if Gem.win_platform?
