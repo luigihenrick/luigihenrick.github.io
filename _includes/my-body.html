@@ -108,11 +108,15 @@ Example code for using Matamo as alternative analytics solution.
 
 {% if page.applause_button %}
   <script>
-    var about = document.querySelector('#_main > aside.about.related.mt4.mb4');
-    about.insertAdjacentHTML('beforebegin',
-  `<applause-button
-    color={{ site.accent_color | default:'rgb(79,177,186)' }}
-    url={{ site.url }}{{ page.url }} >
-  </applause-button>`)
+    var dingbat = document.querySelector('#_main > hr');
+    if (dingbat)
+      dingbat.remove();
+    
+    document.querySelector('#_main > aside.about.related.mt4.mb4')
+      .insertAdjacentHTML('beforebegin',
+        `<applause-button
+          color={{ site.accent_color | default:'rgb(79,177,186)' }}
+          url={{ site.url }}{{ page.url }} >
+        </applause-button>`);
   </script>
 {% endif %}
