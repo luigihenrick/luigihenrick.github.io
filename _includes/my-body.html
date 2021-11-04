@@ -105,3 +105,14 @@ Example code for using Matamo as alternative analytics solution.
 </script>
 {% endif %}
 {% endcomment %}
+
+{% if page.applause_button %}
+  <script>
+    var about = document.querySelector('#_main > aside.about.related.mt4.mb4');
+    about.insertAdjacentHTML('beforebegin',
+  `<applause-button
+    color={{ site.accent_color | default:'rgb(79,177,186)' }}
+    url={{ site.url }}{{ page.url }} >
+  </applause-button>`)
+  </script>
+{% endif %}
