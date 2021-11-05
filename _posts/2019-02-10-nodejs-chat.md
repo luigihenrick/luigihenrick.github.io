@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Chat 📫
+category: projects
+tags: [chat, socket.io, nodejs]
 image: /assets/img/projects/nodechat.png
 accent_image: 
   background: url('/assets/img/projects/nodechat.png') center/cover

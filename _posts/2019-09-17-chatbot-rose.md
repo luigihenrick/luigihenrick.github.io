@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Chatbot Rose 🤖
+category: projects
+tags: [chatbot, nodejs, ibm, watson, AI, chat]
 image: /assets/img/projects/chatbot.png
 accent_image: 
   background: url('/assets/img/projects/chatbot.png') center/cover

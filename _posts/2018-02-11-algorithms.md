@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Algorithms ⌨️
+category: study
+tags: [algorithms, performance, course]
 image: /assets/img/projects/sort.png
 accent_image: 
   background: url('/assets/img/projects/quicksort.gif') center/cover

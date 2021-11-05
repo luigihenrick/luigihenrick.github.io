@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Message Queue Exemples 📥
+category: projects
+tags: [messaging, queue, rabbitmq, nodejs]
 image: /assets/img/projects/queue.png
 accent_image: 
   background: url('/assets/img/projects/rabbitmq.svg') center/cover

@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Snake! 🐍
+category: projects
+tags: [game, snake, javascript, canvas]
 image: /assets/img/projects/snake.png
 accent_image: 
   background: url('/assets/img/projects/snake.png') center/cover
