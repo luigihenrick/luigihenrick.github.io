@@ -139,14 +139,14 @@ Example code for using Matamo as alternative analytics solution.
         </div>
         <div id="_hits""><ul id="_results-container"></ul></div>`);
 
-  document.getElementById('_search').onclick = function(){
+  document.getElementById('_search').addEventListener('click', function(){
     document.getElementById('_search-box').classList.add('show');
     document.getElementById('_search-input').focus();
-  }
+  });
 
-  document.querySelector('#_search-box > button').onclick = function(){
+  document.querySelector('#_search-box > button').addEventListener('click', function(){
     document.getElementById('_search-box').classList.remove('show');
-  }
+  });
 
   SimpleJekyllSearch({
     searchInput: document.getElementById('_search-input'),
