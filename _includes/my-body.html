@@ -109,8 +109,9 @@ Example code for using Matamo as alternative analytics solution.
 {% if page.applause_button %}
   <script>
     var dingbat = document.querySelector('#_main > hr');
-    if (dingbat)
+    if (dingbat) {
       dingbat.remove();
+    }
     
     document.querySelector('#_main > aside.about.related.mt4.mb4')
       .insertAdjacentHTML('beforebegin',
@@ -120,3 +121,36 @@ Example code for using Matamo as alternative analytics solution.
         </applause-button>`);
   </script>
 {% endif %}
+
+<script>
+  document.querySelector('#_menu')
+      .insertAdjacentHTML('afterend',
+        `<button id="_search" class="nav-btn no-hover"> 
+          <label class="sr-only" for="_search-input">Search</label> 
+          <span class="icon-search"></span> 
+        </button>
+        <div id="_search-box">
+          <div class="nav-btn"> <span class="icon-search"></span></div>
+          <input id="_search-input" type="search" class="form-control form-control-lg nav-btn" placeholder="Type something…"> 
+          <button type="reset" class="nav-btn no-hover"> 
+            <span class="sr-only">Close</span> 
+            <span class="icon-cross"></span> 
+          </button>
+        </div>
+        <div id="_hits""><ul id="_results-container"></ul></div>`);
+
+  document.getElementById('_search').onclick = function(){
+    document.getElementById('_search-box').classList.add('show');
+    document.getElementById('_search-input').focus();
+  }
+
+  document.querySelector('#_search-box > button').onclick = function(){
+    document.getElementById('_search-box').classList.remove('show');
+  }
+
+  SimpleJekyllSearch({
+    searchInput: document.getElementById('_search-input'),
+    resultsContainer: document.getElementById('_results-container'),
+    json: '/search.json'
+  })
+</script>
