@@ -3,21 +3,18 @@
     
     function addClapButton(){
         console.log(`addClapButton called`);
-        var dingbat = document.querySelector('#_main > hr');
-        if (dingbat) {
-            dingbat.remove();
-        }
         
-        var about = document.querySelector('#_main > aside.about.related.mt4.mb4');
-
-        if(about) {
-            about.insertAdjacentHTML('beforebegin',
+        document.querySelector('#_main > hr')?.remove();
+        document.querySelector('#_main > p')?.remove();
+        document.querySelector('#_main > clap-button')?.remove();
+        
+        var about = document.querySelector('#_main > aside.related.mb4')
+                ?.insertAdjacentHTML('beforebegin',
                 `<applause-button
                     color={{ site.accent_color | default:'rgb(79,177,186)' }}
                     multiclap=true
                     url=`+window.location.href+` >
                 </applause-button>`);
-        }
     }
 
     addClapButton();
