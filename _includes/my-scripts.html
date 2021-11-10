@@ -1,0 +1,40 @@
+<script>
+    function addClapButton(){
+        console.log(`addClapButton called`);
+        var dingbat = document.querySelector('#_main > hr');
+        if (dingbat) {
+            dingbat.remove();
+        }
+        
+        var about = document.querySelector('#_main > aside.about.related.mt4.mb4');
+
+        if(about) {
+            about.insertAdjacentHTML('beforebegin',
+                `<applause-button
+                    id="_applause-btn"
+                    color={{ site.accent_color | default:'rgb(79,177,186)' }}
+                    url={{ site.url }}{{ page.url }} >
+                </applause-button>`);
+        }
+    }
+</script>
+
+<script>   
+    function updatePageState() {
+        addClapButton();
+    }
+    
+    var pageState = document.getElementById('_pushState');
+
+    var observer = new MutationObserver(function(mutations) {
+        mutations.forEach(function(mutation) {
+            if (mutation.type === 'childList') {
+                console.log(`pageState mutation detected`);
+                updatePageState();
+            }
+        });
+    });
+
+    observer.observe(pageState, { childList: true });
+</script>
+
