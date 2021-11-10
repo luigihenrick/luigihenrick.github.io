@@ -3,12 +3,10 @@ layout: page
 title: Projects
 description: >
   Here I'll put some personal projects published.
-hide_description: true
+hide_description: false
 sitemap: false
 permalink: /projects/
 ---
-
-Here I'll put some personal projects published. 
 
 ## Chatbot Rose 📫
 Chatbot desenvolvido a partir do watson conversation utilizando NodeJS para comunicação e interface.
@@ -22,6 +20,13 @@ Jogo de snake responsivo criado utilizando HTML5, CSS e JavaScript.
 
 [[Source Code]](https://github.com/luigihenrick/snake) 
 [[Live Demo]](https://luigihenrick.github.io/html5-snake/) 
+
+## Stop Online! 🛑
+
+Jogo de stop criado utilizando NodeJS, JavaScript, Bootstrap, JQuery.
+
+[[Source Code]](https://github.com/luigihenrick/fatec-es3-stop) 
+[[Live Demo]](https://fatec-es3-stop.herokuapp.com/) 
 
 ## NodeJs Chat 📫
 
