@@ -11,9 +11,9 @@
         if(about) {
             about.insertAdjacentHTML('beforebegin',
                 `<applause-button
-                    id="_applause-btn"
                     color={{ site.accent_color | default:'rgb(79,177,186)' }}
-                    url={{ site.url }}{{ page.url }} >
+                    multiclap=true
+                    url=`+window.location.href+` >
                 </applause-button>`);
         }
     }
@@ -21,6 +21,7 @@
 
 <script>   
     function updatePageState() {
+        console.log();
         addClapButton();
     }
     
