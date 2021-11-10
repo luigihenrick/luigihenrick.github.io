@@ -1,4 +1,6 @@
 <script>
+    console.log('my-scripts loaded');
+    
     function addClapButton(){
         console.log(`addClapButton called`);
         var dingbat = document.querySelector('#_main > hr');
@@ -17,11 +19,12 @@
                 </applause-button>`);
         }
     }
+
+    addClapButton();
 </script>
 
 <script>   
     function updatePageState() {
-        console.log();
         addClapButton();
     }
     
