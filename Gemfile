@@ -1,4 +1,4 @@
-source "https://rubygems.org"
+source 'https://rubygems.org'
 
 # Hello! This is where you manage which Jekyll version is used to run.
 # When you want to use a different version, change it below, save the
@@ -8,19 +8,13 @@ source "https://rubygems.org"
 #
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
-
-gem "jekyll", "~> 3.8"
-
-# A JavaScript runtime for ruby that helps with running the katex gem above.
-gem "duktape"
+gem "jekyll", "~> 3.9"
 
 group :jekyll_plugins do
-  gem "github-pages"
-  gem "jekyll-include-cache"
-  gem "jekyll-compose"
-  gem "nokogiri", ">= 1.12.5"
-  gem 'jemoji'
+  gem 'github-pages'
+  gem 'jekyll-include-cache'
+  gem 'jekyll-compose'
 end
 
 gem 'wdm' if Gem.win_platform?
-gem "tzinfo-data" if Gem.win_platform?
+gem 'tzinfo-data' if Gem.win_platform?
