@@ -1,47 +1,34 @@
----
-layout: page
-title: Thank You!
-sitemap: false
----
+### Hi there 👋
+### My name is Luigi and I'm a .NET developer
 
-Thank you for buying the PRO version of Hydejack! 🎉
+<div style="display: inline_block">
 
-More than one year ago I was looking for a blogging platform but couldn't find it:
-One that would let me write posts in markdown with my own editor,
-one that didn't look awful buy modern design standards, and one that felt snappy on a mobile phone.
-That and more is now Hydejack. I hope you enjoy it [as much as I do](https://qwtel.com/).
+ <a href="https://www.linkedin.com/in/luigihenrick" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> 
 
-## First Steps
-Start by reading the [Documentation]{:.heading.flip-title}.
-Specifically, the chapters below should be relevant now:
+ <a href="https://github.com/luigihenrick"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" target="_blank"></a>
 
-* [Install]{:.heading.flip-title} --- How to install and run Hydejack.
-* [Config]{:.heading.flip-title} --- Once Jekyll is running you can start with basic configuration.
-{:.related-posts.faded}
+ <a href="mailto:luigihenrick@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
 
-After you've familiarized yourself with Hydejack, you can delete the following folders and files
-containing example content:
+</div>
 
-~~~
-├── _featured_categories
-│   └── example.md
-├── _projects
-│   └── *
-├── docs
-├── example
-├── licenses
-├── assets
-│   └── img
-│       ├── blog
-│       ├── docs
-│       └── projects
-├── CHANGELOG.md
-├── forms-by-example.md
-├── LICENSE.md
-└── NOTICE.md
-~~~
+<div style="display: inline_block"><br/>
 
-[documentation]: docs/README.md
-[install]: docs/install.md
-[upgrade]: docs/upgrade.md
-[config]: docs/config.md
+ <img style="width: 57.5%;" src="https://github-readme-stats.vercel.app/api?username=luigihenrick&show_icons=true&theme=nord&include_all_commits=true&count_private=true"/>
+
+ <img style="width: 41.5%;" src="https://github-readme-stats.vercel.app/api/top-langs/?username=luigihenrick&layout=compact&langs_count=7&theme=nord"/>
+
+</div>
+
+<div style="display: inline_block"><br/>
+
+ <img align="center" alt="csharp" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg"/>
+
+ <img align="center" alt="dotnetcore" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/dotnetcore/dotnetcore-original.svg"/>
+
+ <img align="center" alt="dotnet" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/dot-net/dot-net-plain-wordmark.svg"/>
+
+ <img align="center" alt="javascript" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
+
+ <img align="center" alt="mssqlserver" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/microsoftsqlserver/microsoftsqlserver-plain-wordmark.svg"/>
+ 
+ </div>
