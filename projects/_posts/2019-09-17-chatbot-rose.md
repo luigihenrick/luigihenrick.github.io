@@ -6,7 +6,7 @@ tags: [chatbot, nodejs, ibm, watson, AI, chat]
 image: /assets/img/projects/chatbot.png
 accent_image: 
   background: url('/assets/img/projects/chatbot.png') center/cover
-  overlay: false
+  overlay: true
 accent_color: '#ccc'
 theme_color: '#ccc'
 description: >

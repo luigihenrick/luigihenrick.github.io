@@ -6,7 +6,7 @@ tags: [chat, socket.io, nodejs]
 image: /assets/img/projects/nodechat.png
 accent_image: 
   background: url('/assets/img/projects/nodechat.png') center/cover
-  overlay: false
+  overlay: true
 accent_color: '#ccc'
 theme_color: '#ccc'
 description: >

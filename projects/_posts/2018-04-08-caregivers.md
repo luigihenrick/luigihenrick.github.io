@@ -6,7 +6,7 @@ tags: [api, asp.net, mvc]
 image: /assets/img/projects/caregiver.jpg
 accent_image: 
   background: url('/assets/img/projects/caregiver.jpg') center/cover
-  overlay: false
+  overlay: true
 accent_color: '#ccc'
 theme_color: '#ccc'
 description: >

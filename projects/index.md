@@ -1,11 +1,12 @@
 ---
-layout: page
+layout: blog
 title: Projects
 description: >
   Here I'll put some personal projects published.
 hide_description: false
-sitemap: false
-permalink: /projects/
+show_collection: projects
+featured:        true
+
 ---
 
 ## Chatbot Rose 📫
