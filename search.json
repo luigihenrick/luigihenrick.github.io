@@ -10,6 +10,15 @@ layout: none
         "tags"     : "{{ post.tags | join: ', ' }}",
         "date"     : "{{ post.date }}",
         "description" : "{{post.description | strip_html | strip_newlines | escape }}"
+        },
+    {% endfor %}
+    {% for project in site.projects %}
+        {
+        "title"    : "{{ project.title | strip_html | escape }}",
+        "url"      : "{{ site.baseurl }}{{ project.url }}",
+        "category" : "{{project.caption | join: ', '}}",
+        "date"     : "{{ project.date }}",
+        "description" : "{{project.description | strip_html | strip_newlines | escape }}"
         } {% unless forloop.last %},{% endunless %}
     {% endfor %}
 ]

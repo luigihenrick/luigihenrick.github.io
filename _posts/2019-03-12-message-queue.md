@@ -7,8 +7,6 @@ image: /assets/img/projects/queue.png
 accent_image: 
   background: url('/assets/img/projects/rabbitmq.svg') center/cover
   overlay: true
-accent_color: '#ccc'
-theme_color: '#ccc'
 description: >
   Projeto acadêmico da Fatec-SP desenvolvido em NodeJS.
 invert_sidebar: true

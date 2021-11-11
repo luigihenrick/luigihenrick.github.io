@@ -7,8 +7,6 @@ image: /assets/img/projects/caregiver.jpg
 accent_image: 
   background: url('/assets/img/projects/caregiver.jpg') center/cover
   overlay: true
-accent_color: '#ccc'
-theme_color: '#ccc'
 description: >
   Projeto acadêmico da Fatec-SP desenvolvido em ASP.NET MVC.
   Objetivo foi criar um sistema para facilitar relacionamento entre cuidadores e pacientes.
