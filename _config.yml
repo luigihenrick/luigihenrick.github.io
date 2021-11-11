@@ -82,8 +82,8 @@ paginate_path:         /:num/
 # Theme
 # ---------------------------------------------------------------------------------------
 
-remote_theme: hydecorp/hydejack@v9
-# remote_theme: hydecorp/hydejack@v9.0.0-rc.6
+# theme: jekyll-theme-hydejack
+# remote_theme: hydecorp/hydejack@v9
 
 
 # Customizaton
@@ -91,7 +91,7 @@ remote_theme: hydecorp/hydejack@v9
  
 # Sidebar image and theme color of the site.
 accent_image:          /assets/img/black-sidebar.png
-accent_color:          rgb(17, 90, 90)
+accent_color:          rgb(79,177,186)
 
 # This is used for the `theme-color` meta tag,
 # which changes the background color of the browser UI in certain browsers.
@@ -114,12 +114,24 @@ font_heading:          Roboto Slab, Helvetica, Arial, sans-serif
 font_code:             Fira Code, Menlo, Monaco, Consolas, monospace;
 
 defaults:
+  # You can use this to provide a default accent color and background for
+  # all pages under a given path:
+  - scope:
+      path:            hyde/
+    values:
+      accent_color:    rgb(38,139,210)
+      theme_color:     rgb(38,139,210)
+      accent_image:
+        background:    rgb(32,32,32)
+        overlay:       false
+
   # Don't include documents in assets in the sitemap
   - scope:
       path:            assets/
     values:
       sitemap:         false
 
+  # Don't include licenses in sitemap (feel free to delete)
   - scope:
       path:            licenses/
     values:
@@ -154,7 +166,7 @@ defaults:
         type:          WebPage
 
 kramdown:
-  math_engine:         katex
+  math_engine:         mathjax
   math_engine_opts:    {}
   footnote_backlink:   '&#x21a9;&#xfe0e;'
 
@@ -181,10 +193,10 @@ disqus:                luigihenrick
 
 hydejack:
   # Configure the order of complementary content on blog posts
-  post_addons:         [newsletter, related, random, comments]
+  post_addons:         [about, newsletter, related, random, comments]
 
   # Configure the order of complementary content on project pages
-  project_addons:      [newsletter, other, comments]
+  project_addons:      [about, newsletter, other, comments]
 
   # Set to `true` if you don't want to show an icon indicating external links
   no_mark_external:    false
@@ -260,11 +272,14 @@ hydejack:
 
   # Note that dark mode only works in the PRO version of Hydejack.
   dark_mode:
-    dynamic: true
-    sunrise: 6
-    sunset:  18
-    icon:    true
-    always:  true
+    # Set to `true` to always use the dark theme.
+    always:            false
+
+    # Set to `true` to use the dark theme based on visitors' preference (OS setting).
+    dynamic:           true
+
+    # Set to `true` to allow visitors to switch between light and dark mode.
+    icon:              true
 
   # ⚡️ DANGER ZONE ⚡️
   # ----------------
@@ -311,7 +326,6 @@ include:
   - LICENSE.md
 
 
-
 # Plugins
 # ----------------------------------------------------------------------------------------
 
@@ -328,7 +342,6 @@ plugins:
   - jekyll-titles-from-headings
   - jekyll-include-cache
   - jekyll-last-modified-at
-  - jemoji
 
 
 # SEO Tag
@@ -386,6 +399,7 @@ compress_html:
 
 sass:
   style:               compressed
+
 
 # Jekyll Compose Defaults
 # ---------------------------------------------------------------------------------------
