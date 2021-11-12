@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Cuidadores 👩‍⚕️
-category: projects
+category: posts
 tags: [api, asp.net, mvc]
 image: /assets/img/projects/caregiver.jpg
 accent_image: 

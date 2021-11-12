@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Algorithms ⌨️
-category: study
+category: posts
 tags: [algorithms, performance, course]
 image: /assets/img/projects/sort.png
 accent_image: 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Message Queue Exemples 📥
-category: projects
+category: posts
 tags: [messaging, queue, rabbitmq, nodejs]
 image: /assets/img/projects/queue.png
 accent_image: 
@@ -9,7 +9,7 @@ accent_image:
   overlay: true
 description: >
   Projeto acadêmico da Fatec-SP desenvolvido em NodeJS.
-invert_sidebar: true
+invert_sidebar: false
 ---
 
 # Message Queue Exemples 📥
