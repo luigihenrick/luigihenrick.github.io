@@ -2,102 +2,142 @@
 # If you don't have a JSON Resume you can just edit this YAML file instead.
 # See also: <https://jsonresume.org/>.
 basics:
-  name: "Richard Hendricks"
+  name: "Luigi Henrick"
   label: "Programmer"
-  picture: "https://placehold.it/240x240"
-  email: ""
-  phone: "(912) 555-4321"
-  website: "https://piedpiper.com"
+  picture: "/assets/img/me.jpg"
+  email: "luigihenrick@gmail.com"
+  phone: "+55 (11) 98201-1319"
   summary: >
-    Richard hails from Tulsa.
-    He has earned degrees from the University of Oklahoma and Stanford. (Go Sooners and Cardinals!)
-    Before starting Pied Piper, he worked for Hooli as a part time software developer.
-    While his work focuses on applied information theory,
-    mostly optimizing lossless compression schema of both the length-limited and adaptive variants,
-    his non-work interests range widely,
-    everything from quantum computing to chaos theory.
-    He could tell you about it, but THAT would NOT be a “length-limited” conversation!
-    Open `_data/resume.yml` to edit this text.
+    Professional with over six years of experience as a developer. Mostly worked in the financial market delivering products for large-scale and distributed systems.
+    I've already worked for small and big companies as Itaú bank, XP Inc, and as a consultant for Original bank and Tecpay (point of sale system).
   location:
-    address: "2712 Broadway St"
-    postalCode: "CA 94115"
-    city: "San Francisco"
-    countryCode: "US"
-    region: "California"
+    city: "Sao Paulo"
+    countryCode: "BR"
+    region: "SP"
   profiles:
-    - network: "Twitter"
-      username: "RHendricksCEO"
-      url: ""
+    - network: "GitHub"
+      username: "luigihenrick"
+      url: "https://github.com/luigihenrick"
     - network: "LinkedIn"
-      username: "Richard Hendricks"
-      url: ""
+      username: "luigihenrick"
+      url: "https://www.linkedin.com/in/luigihenrick/"
 work:
-  - company: "Pied Piper"
-    position: "CEO/President"
-    website: "https://piedpiper.com"
-    startDate: "2013-12-01"
+  - company: "adyou"
+    position: "Senior Software Engineer"
+    website: "https://www.adyou.app/"
+    startDate: "2020-11-01"
     endDate: ""
     summary: >
-      Pied Piper is a multi-platform technology based on a proprietary universal compression algorithm that has
-      consistently fielded high Weisman Scores™ that are not merely competitive,
-      but approach the theoretical limit of lossless compression.
+      I've worked as a technical leader been responsible to create a new app from the scratch including all the architecture, infrastructure, build and release pipelines, communication between services thinking about performance, and cloud costs.
+      Also, I was in the middle between the business area and IT team helping to prioritize new features, search about new technologies and keep the team motivated.
     highlights:
-      - "Built an algorithm for artist to detect if their music was violating copy right infringement laws"
-      - "Successfully won Techcrunch Disrupt"
-      - "Optimized an algorithm that holds the current world record for Weisman Scores"
-volunteer:
-  - organization: "CoderDojo"
-    position: "Teacher"
-    website: "https://coderdojo.com/"
-    startDate: "2012-01-01"
-    endDate: "2013-01-01"
-    summary: "Global movement of free coding clubs for young people."
+      - "Experience as a leader"
+      - "Experience building new apps from scratch"
+      - "Solution architecture"
+  - company: "Itaú Unibanco"
+    position: "System Software Engineer"
+    website: "https://www.itau.com.br/"
+    startDate: "2020-02-01"
+    endDate: "2021-02-01"
+    summary: >
+      I've worked on a new Itaú project called Íon, it's a new investment platform for customers to have more options and a better investing experience. All of this combined with all the security from one of the biggest banks of Latin America. 
+      Technologies used: dotnet core; C#, WebAPIs, AWS cloud; Kotlin; Android; GIT.
     highlights:
-      - "Awarded 'Teacher of the Month'"
+      - "Authentication Flow"
+      - "Kotlin for Android"
+      - "AWS"
+  - company: "XP Inc"
+    position: "Software Developer"
+    website: "https://xpi.com.br/"
+    startDate: "2018-11-01"
+    endDate: "2019-11-01"
+    summary: >
+      I've developed backend systems to structured products to turn scalable and reach more customers. Between the main deliveries are send proposals of options to customer mobile phone, create proposals templates and show these templates on customer positions.
+      Technologies used: Microservices architecture; WebAPIs; Message Queues; Azure DevOps; ServiceFabric; .NET Core; C#; AngularJS; Windows Communication Foundation (WCF); SQL Server; Oracle.
+    highlights:
+      - "Microservices"
+      - "Message Queue"
+      - "CQRS"
+  - company: "Beyond Solutions"
+    position: "Junior Software Developer"
+    website: "https://www.imaginebeyond.com.br/"
+    startDate: "2018-02-01"
+    endDate: "2018-11-01"
+    summary: >
+      I have worked as a consultant in the biggest Latin America independent brokerage at the team that is responsible for developing the new customer platform of structured notes products and other important deliveries like orders by push notification and a new backend architecture to support a huge number of requests.
+      Main technologies used: Microservices architecture; CQRS; WebAPIs; Visual Studio Team Services (Azure DevOps); Continuous Integration; C#; Oracle; SQL Server; Agile Methodologies (Scrum); Git.
+    highlights:
+      - "Azure Cloud"
+      - "Oracle"
+      - "Scrum"
+  - company: "TurnIT"
+    position: "Web Developer Internship"
+    website: "http://turnit.com.br/"
+    startDate: "2017-03-01"
+    endDate: "2018-02-01"
+    summary: >
+      I've participated in all steps of web solutions since prospecting clients until analysis and developing systems for financial companies like Banco Original, TecPay, Lotus Investments, Moka Invest, and another’s.
+      Technologies used: C#, ASP.NET MVC 4/5, SQL Server 2014, HTML5, JavaScript, jQuery, CSS3, Bootstrap 3, code versioning in Git/Bitbucket.
+    highlights:
+      - ".NET Framework"
+      - "Bootstrap"
+      - "SQL Server"
+  - company: "Ile Fashion"
+    position: "IT Support Technician"
+    website: "https://www.ilefashion.com.br/"
+    startDate: "2015-11-01"
+    endDate: "2017-03-01"
+    summary: >
+      Responsible for creating an android application and web services to helps the customer attendance.
+      Implementation of several improvements in your network infrastructure including a creation of a VoIP
+      server and implementation of IP phones.
+    highlights:
+      - "Java"
+      - "Apache Server"
+      - "Java for Android"
 education:
-  - institution: "University of Oklahoma"
-    area: "Information Technology"
+  - institution: "Faculdade de Tecnologia de São Paulo"
+    area: "System Analysis and Development"
     studyType: "Bachelor"
-    startDate: "2011-06-01"
-    endDate: "2014-01-01"
-    gpa: "4.0"
-    courses:
-      - "DB1101 - Basic SQL"
-      - "CS2011 - Java Introduction"
-awards:
-  - title: "Digital Compression Pioneer Award"
-    date: "2014-11-01"
-    awarder: "Techcrunch"
-    summary: "There is no spoon."
-publications:
-  - name: "Video compression for 3d media"
-    publisher: "Hooli"
-    releaseDate: "2014-10-01"
-    website: "https://en.wikipedia.org/wiki/Silicon_Valley_(TV_series)"
-    summary: "Innovative middle-out compression algorithm that changes the way we store data."
+    startDate: "2015-06-01"
+    endDate: "2019-01-01"
+  - institution: "Universidade Cidade de São Paulo"
+    area: "IT"
+    studyType: "Certificate"
+    startDate: "2014-09-01"
+    endDate: "2015-09-01"
 skills:
-  - name: "Web Development"
+  - name: ".NET Core"
     level: "Master"
     keywords:
-      - "HTML"
-      - "CSS"
-      - "Javascript"
-  - name: "Compression"
-    level: "Master"
+      - "C#"
+      - "REST API's"
+  - name: "Database"
+    level: "Senior"
     keywords:
-      - "Mpeg"
-      - "MP4"
-      - "GIF"
+      - "SQL Server"
+      - "Redis"
+  - name: "Message Queue"
+    level: "Intermediate"
+    keywords:
+      - "RabbitMQ"
+      - "Kafka"
+  - name: "Cloud"
+    level: "Intermediate"
+    keywords:
+      - "Azure"
+      - "AWS"
+  - name: "Design Patterns"
+    level: "Intermediate"
+    keywords:
+      - "Microservices"
+      - "Clean Architecture"
 languages:
-  - language: "English"
+  - language: "Português (Brasil)"
     fluency: "Native speaker"
-interests:
-  - name: "Wildlife"
-    keywords:
-      - "Ferrets"
-      - "Unicorns"
-references:
-  - name: "Erlich Bachman"
-    reference: >
-      It is my pleasure to recommend Richard, his performance working as a consultant for Main St.
-      Company proved that he will be a valuable addition to any company.
+  - language: "English"
+    fluency: "Full professional proficiency"
+# references:
+#   - name: "Martin Fowler"
+#     reference: >
+#       Any fool can write code that a computer can understand. Good programmers write code that humans can understand.

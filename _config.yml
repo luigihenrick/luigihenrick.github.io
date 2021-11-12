@@ -3,13 +3,13 @@
 
 # Uncomment and set the URL of your site (with protocol, e.g. `https://`)
 # NOTE: You don't need to provide this property when hosting on GitHub Pages or Netlify.
-# url:                   https://username.github.io
+url:                    https://luigihenrick.github.io
 
 # Uncomment and set the "base URL" of your site.
 # When your site is in a subdirectory, set to `/<name of directory>`,
 # with a leading `/` but no trailing `/`. Use the empty string '' otherwise.
 # NOTE: You don't need to provide this property when hosting on GitHub Pages or Netlify.
-# baseurl:               '/hydejack-starter-kit'
+baseurl:                ''
 
 
 # General settings
@@ -17,10 +17,10 @@
 
 # Language of your content in 2-letter code, e.g.: en, de.
 # You may also provide a location, e.g.: en-us, de_AT.
-lang:                  en
+lang:                  en, pt-BR
 
 # The title of your blog. Used in the sidebar and the browser tab.
-title:                 Hydejack
+title:                 Luigi Henrick
 
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
@@ -29,7 +29,7 @@ description:           >
   with a focus on personal sites that are meant to impress.
 
 # A shorter description for the sidebar.
-tagline:               Change `tagline` in `_config.yml`
+tagline:               Software developer.
 
 # A list of keywords for your blog
 keywords:              []
@@ -37,26 +37,26 @@ keywords:              []
 # A (square) logo for your site.
 # If provided, it will be shown at the top of the sidebar.
 # It also used by the `jekyll-seo-tag` plugin.
-logo:                  /assets/img/logo.png
+logo:                  /assets/img/me.jpg
 
 # This should be the same author as first entry in `_data/authors.yml`.
 author:
   # Used by `jekyll-feed`:
-  name:                <firstname> <lastname>
-  email:               <mail@domain.tld>
+  name:                Luigi Henrick
+  email:               luigihenrick@gmail.com
   # # Used by `jekyll-seo-tag`:
   # twitter:             <username>
 
 # Add links to the sidebar.
 menu:
-  - title:             Blog
-    url:               /blog/
+  - title:             Posts
+    url:               /posts/
   - title:             Projects
     url:               /projects/
-  - title:             Résumé*
+  - title:             Resumé
     url:               /resume/
-  - title:             Documentation
-    url:               /docs/
+  - title:             About
+    url:               /about/
 
 # Add links to the footer.
 # Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..
@@ -72,11 +72,11 @@ legal:
 copyright:             © 2021. All rights reserved.
 
 # Format of the permalinks
-permalink:             /blog/:categories/:year-:month-:day-:title/
+permalink:             /:categories/:year-:month-:day-:title/
 
 # Pagination configuration (used by the `blog` layout)
 paginate:              10
-paginate_path:         /blog/:num/
+paginate_path:         /:num/
 
 
 # Theme
@@ -90,13 +90,13 @@ paginate_path:         /blog/:num/
 # ----------------------------------------------------------------------------------------
  
 # Sidebar image and theme color of the site.
-accent_image:          /assets/img/sidebar-bg.jpg
+accent_image:          /assets/img/black-sidebar.png
 accent_color:          rgb(79,177,186)
 
 # This is used for the `theme-color` meta tag,
 # which changes the background color of the browser UI in certain browsers.
 # Defaults to `accent_color`.
-theme_color:           rgb(8,46,57)
+theme_color:           rgb(204,204,204)
 
 # The string encoding which fonts to fetch from Google Fonts.
 # See: <https://hydejack.com/docs/configuration/>
@@ -116,14 +116,14 @@ font_code:             Fira Code, Menlo, Monaco, Consolas, monospace;
 defaults:
   # You can use this to provide a default accent color and background for
   # all pages under a given path:
-  - scope:
-      path:            hyde/
-    values:
-      accent_color:    rgb(38,139,210)
-      theme_color:     rgb(38,139,210)
-      accent_image:
-        background:    rgb(32,32,32)
-        overlay:       false
+  # - scope:
+  #     path:            hyde/
+  #   values:
+  #     accent_color:    rgb(38,139,210)
+  #     theme_color:     rgb(38,139,210)
+  #     accent_image:
+  #       background:    rgb(32,32,32)
+  #       overlay:       false
 
   # Don't include documents in assets in the sitemap
   - scope:
@@ -139,16 +139,19 @@ defaults:
       sitemap:         false
 
   # # You can use the following to enable comments on all posts.
-  # - scope:
-  #     type:            posts
-  #   values:
-  #     comments:        true
+  - scope:
+      type:            posts
+    values:
+      applause_button: true
+      comments:        true
 
   # `jekyll-seo-tag` will mark collection outputs as `BlogPosting`,
   # but we want them to be `WebPage`s:
   - scope:
       type:            projects
     values:
+      applause_button: true
+      comments:        true
       seo:
         type:          WebPage
   - scope:
@@ -177,7 +180,7 @@ kramdown:
 
 # Setting a disqus shortname will enable the comment section on
 # pages with `comments: true` in the front matter.
-# disqus:                <username>
+disqus:                luigihenrick
 
 # Setting a tinyletter username will enable the newsletter subscription box.
 # PRO version only!
@@ -190,10 +193,10 @@ kramdown:
 
 hydejack:
   # Configure the order of complementary content on blog posts
-  post_addons:         [about, newsletter, related, random, comments]
+  post_addons:         [related, comments]
 
   # Configure the order of complementary content on project pages
-  project_addons:      [about, newsletter, other, comments]
+  project_addons:      [comments]
 
   # Set to `true` if you don't want to show an icon indicating external links
   no_mark_external:    false
@@ -294,7 +297,7 @@ hydejack:
 
 collections:
   featured_categories:
-    permalink:         /blog/:name/
+    permalink:         /:name/
     output:            true
 
   featured_tags:
