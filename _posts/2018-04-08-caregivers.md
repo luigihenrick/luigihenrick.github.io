@@ -10,7 +10,6 @@ accent_image:
 description: >
   Projeto acadêmico da Fatec-SP desenvolvido em ASP.NET MVC.
   Objetivo foi criar um sistema para facilitar relacionamento entre cuidadores e pacientes.
-invert_sidebar: true
 ---
 
 # Cuidadores 👩‍⚕️

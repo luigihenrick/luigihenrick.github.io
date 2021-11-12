@@ -10,12 +10,18 @@ links:
   - title: Try it!
     url: https://luigihenrick.github.io/html5-snake/
 accent_image: 
-  background: url('/assets/img/projects/snake.png') center/cover
+  background: rgb(161, 202, 146)
   overlay: true
 ---
 
 # Snake! 🐍
 
 [Clique aqui para jogar! :video_game:](https://luigihenrick.github.io/html5-snake/)
+
+## Tecnologias
+
+- HTML5
+- Javascript
+- CSS
 
 *[SERP]: Search Engine Results Page

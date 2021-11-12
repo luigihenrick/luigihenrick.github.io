@@ -10,7 +10,7 @@ links:
   - title: Try it!
     url: https://luigihenrick-chat.herokuapp.com/
 accent_image: 
-  background: url('/assets/img/projects/nodechat.png') center/cover
+  background: url('/assets/img/projects/nodechat.png') center/10%
   overlay: true
 ---
 

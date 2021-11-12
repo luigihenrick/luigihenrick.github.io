@@ -10,7 +10,7 @@ links:
   - title: Try it!
     url: https://chatbot-rose.herokuapp.com/
 accent_image: 
-  background: url('/assets/img/projects/chatbot.png') center/cover
+  background: rgb(56, 128, 231)
   overlay: true
 ---
 
@@ -36,17 +36,17 @@ accent_image:
 2. Clone este repositório;
 3. Dentro na pasta do repositório os comandos: 
 
-```
+```js
 npm install
 ```
-```
+```js
 npm start
 ```
 
 
 4. Deve aparecer a mensagem mensagem:
 
-```
+```js
 Running on port 3000...
 ```
 

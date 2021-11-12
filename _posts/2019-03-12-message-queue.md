@@ -5,7 +5,7 @@ category: projects
 tags: [messaging, queue, rabbitmq, nodejs]
 image: /assets/img/projects/queue.png
 accent_image: 
-  background: url('/assets/img/projects/rabbitmq.svg') center/cover
+  background: url('/assets/img/projects/rabbitmq.png') center/10%
   overlay: true
 description: >
   Projeto acadêmico da Fatec-SP desenvolvido em NodeJS.
