@@ -196,7 +196,7 @@ hydejack:
   post_addons:         [related, comments]
 
   # Configure the order of complementary content on project pages
-  project_addons:      [comments]
+  project_addons:      [other, comments]
 
   # Set to `true` if you don't want to show an icon indicating external links
   no_mark_external:    false
@@ -342,6 +342,7 @@ plugins:
   - jekyll-titles-from-headings
   - jekyll-include-cache
   - jekyll-last-modified-at
+  - jemoji
 
 
 # SEO Tag
