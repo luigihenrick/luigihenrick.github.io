@@ -77,3 +77,5 @@ dotnet run --project NewProject/NewProject.csproj
 ```
 
 Com tudo certo ja podemos remover o projeto criado para validar o template ```rm -r NewProject``` e feito, agora já está pronto o template para ser utilizado.
+
+Para mais detalhes sobre o template, recomendo o repositório do sayedihashimi: [template-sample](https://github.com/sayedihashimi/template-sample), e sua apresentação no canal oficial da microsoft: [Youtube ▶️ ](https://www.youtube.com/watch?v=GDNcxU0_OuE)
