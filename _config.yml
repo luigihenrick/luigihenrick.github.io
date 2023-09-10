@@ -67,7 +67,7 @@ legal:
     url:               /about/
 
 # This text will appear in a `<small>` tag in the footer of every page.
-copyright:             © 2021. All rights reserved.
+copyright:             © 2023. All rights reserved.
 
 # Format of the permalinks
 permalink:             /:categories/:year-:month-:day-:title/
@@ -214,7 +214,7 @@ hydejack:
   no_mark_external:    false
 
   # Set to `true` if third party plugins fail to work with dynamically loaded pages
-  no_push_state:       false
+  no_push_state:       true
 
   # Set to `true` if you want to disable the drawer
   no_drawer:           false
@@ -325,11 +325,8 @@ collections:
 # ----------------------------------------------------------------------------------------
 
 exclude:
-  - ./#jekyll-theme-hydejack/node_modules
-  - ./#jekyll-theme-hydejack/.git
   - .jekyll-cache
   - .sass-cache
-  - '*.toml'
   - vendor
   - Gemfile
   - Gemfile.lock
@@ -355,7 +352,16 @@ plugins:
   - jekyll-include-cache
   - jekyll-last-modified-at
   - jemoji
+  - jekyll-polyglot
 
+languages: ["en", "pt"]
+default_lang: "en"
+exclude_from_localization: ["assets/css", "assets/img"]
+parallel_localization: false
+lang_from_path: true
+
+sass:
+  sourcemap: never
 
 # SEO Tag
 # ---------------------------------------------------------------------------------------

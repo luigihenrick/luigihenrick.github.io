@@ -3,17 +3,17 @@
 # See also: <https://jsonresume.org/>.
 basics:
   name: "Luigi Henrick"
-  label: "Programmer"
+  label: "Senior Software Developer"
   picture: "/assets/img/me.jpg"
   email: "luigihenrick@gmail.com"
-  phone: "+55 (11) 98201-1319"
+  phone: "+351 912 230 343"
   summary: >
     Professional with over six years of experience as a developer. Mostly worked in the financial market delivering products for large-scale and distributed systems.
     I've already worked for small and big companies as Itaú bank, XP Inc, and as a consultant for Original bank and Tecpay (point of sale system).
   location:
-    city: "Sao Paulo"
-    countryCode: "BR"
-    region: "SP"
+    city: "Lisbon"
+    countryCode: "PT"
+    region: "Lisbon"
   profiles:
     - network: "GitHub"
       username: "luigihenrick"
@@ -22,11 +22,31 @@ basics:
       username: "luigihenrick"
       url: "https://www.linkedin.com/in/luigihenrick/"
 work:
+  - company: "Novabase"
+    position: "Senior Software Developer"
+    website: "https://www.novabase.com/en/"
+    startDate: "2022-05-01"
+    endDate: ""
+    summary: 
+    highlights:
+      - "Experience as a leader"
+      - "Experience building new apps from scratch"
+      - "Solution architecture"
+  - company: "Mottu"
+    position: "Senior Software Developer"
+    website: "https://mottu.com.br/"
+    startDate: "2021-01-01"
+    endDate: "2022-05-01"
+    summary: 
+    highlights:
+      - "Experience as a leader"
+      - "Experience building new apps from scratch"
+      - "Solution architecture"
   - company: "adyou"
-    position: "Senior Software Engineer"
+    position: "Senior Software Developer"
     website: "https://www.adyou.app/"
     startDate: "2020-11-01"
-    endDate: ""
+    endDate: "2021-09-01"
     summary: >
       I've worked as a technical leader been responsible to create a new app from the scratch including all the architecture, infrastructure, build and release pipelines, communication between services thinking about performance, and cloud costs.
       Also, I was in the middle between the business area and IT team helping to prioritize new features, search about new technologies and keep the team motivated.

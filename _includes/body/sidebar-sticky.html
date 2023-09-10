@@ -18,8 +18,17 @@
     {% include body/nav.html %}
   </nav>
 
+  <p>
+    {% if tongue == site.default_lang %}Language:{% else %}Linguaguem:{% endif %}
+    <!-- jekyll-polyglot will process ferh= into href= through the static_href liquid block tag without relativizing the url; useful for making language navigation switchers  -->
+    {% for tongue in site.languages %}
+      <a {% if tongue == site.active_lang %}style="font-weight: bold;"{% endif %} {% static_href %}href="{% if tongue == site.default_lang %}{{site.baseurl}}{{'/' | relative_url}}{% else %}{{site.baseurl}}/{{ tongue }}{{'/' | relative_url}}{% endif %}"{% endstatic_href %} >{{ tongue }}</a>{%- if forloop.last == false -%}{{" "}}{{ site.langsep }}{%- endif -%}
+    {% endfor %}
+  </p>
+
   {% assign author = site.data.authors.first[1] | default:site.author %}
   <div class="sidebar-social">
     {% include components/social.html author=author %}
   </div>
+
 </div>

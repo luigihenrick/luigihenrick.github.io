@@ -1,9 +1,10 @@
 ---
 layout: project
 title: Chat 📫
-caption: Simples chat feito em NodeJs utilizando Socket.io.
+lang: en
+caption: Simple chat made in NodeJs using Socket.io.
 description: >
-  Simples chat feito em NodeJs utilizando Socket.io.
+  Simple chat made in NodeJs using Socket.io.
 date: 12 Feb 2018
 image: /assets/img/projects/nodechat.png
 links:
@@ -16,27 +17,27 @@ accent_image:
 
 # Chat 📫
 
-[Demonstração aqui! :speech_balloon:](https://luigihenrick-chat.herokuapp.com/)
+[Demo here!! :speech_balloon:](https://luigihenrick-chat.herokuapp.com/)
 
-:white_check_mark: Dica: Teste utilizando mais de uma aba do navegador ou com um amigo para ver as mensagens sem atualizar a página!
+:white_check_mark: Tip: Test using more than one browser tab or with a friend to view messages without refreshing the page!
 
-## Como subir o servidor
+## How to start the server
 
-1. Tenha instalado o NodeJs;
-2. Clone este repositório;
-3. Dentro na pasta do repositório o comando: 
+1. Have NodeJs installed;
+2. Clone this repository;
+3. Inside the repository folder, use the command: 
 
 ```js
 node server.js
 ```
 
-4. Deve aparecer a mensagem mensagem:
+4. The message should appear:
 
 ```js
 Servidor rodando na porta 8080...
 ```
 
-5. Acesse http://localhost:8080/ e aproveite! :smile:
+5. Acess http://localhost:8080/ and enjoy! :smile:
 
 
 *[SERP]: Search Engine Results Page

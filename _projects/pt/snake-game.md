@@ -1,10 +1,10 @@
 ---
 layout: project
 title: Snake! 🐍
-lang: en
-caption: Snake game created with HTML, CSS and JavaScript.
+lang: pt
+caption: Jogo de snake criado com HTML, CSS e JavaScript.
 description: >
-  Game developed entirely using javascript, it was created to test my knowledge and deliver something that was fun and useful.
+  Jogo desenvolvido inteiramente utilizando javascript, foi criado para testar meus conhecimentos e entregar algo que fosse divertido e útil.
 date: 13 Feb 2018
 image: /assets/img/projects/snake.png
 links:
@@ -17,9 +17,9 @@ accent_image:
 
 # Snake! 🐍
 
-[Click here to play! :video_game:](https://luigihenrick.github.io/html5-snake/)
+[Clique aqui para jogar! :video_game:](https://luigihenrick.github.io/html5-snake/)
 
-## Technologies
+## Tecnologias
 
 - HTML5
 - Javascript

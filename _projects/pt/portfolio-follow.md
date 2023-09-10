@@ -1,10 +1,10 @@
 ---
 layout: project
 title: Portfolio Follow 📈
-lang: en
-caption: App developed with .NET Core and Flutter to follow your stock wallet.
+lang: pt
+caption: App desenvolvido em .NET Core e Flutter para acompanhar sua carteira de ações.
 description: >
-  Application created in order to centralize the visualization of several investments and follow the variations in your portfolio in a single place.
+  Aplicativo criado com intuito de centralizar a visualização de diversos investimentos e acompanhar as váriações em sua carteira em um único lugar.
 date: 30 Aug 2020 
 image: /assets/img/projects/portfolio.png
 links:
@@ -17,7 +17,7 @@ accent_image:
 
 # Portfolio Follow App 📈
 
-## Images
+## Imagens
 
 <p>
 <img src="https://raw.githubusercontent.com/luigihenrick/portfolio-follow-app/master/images/Screenshot_1582084275.png" width="32%">
@@ -26,17 +26,17 @@ accent_image:
 </p>
 
 
-## Main features
+## Principais funcionalidades
 
-1. Registration of portfolio assets;
-2. Monitoring the current price of registered assets;
-3. Generation of charts with portfolio distribution.
+1. Cadastro de ativos em carteira;
+2. Acompanhamento de preço atual de ativos cadastrados;
+3. Geração de gráficos com distribuição de carteira.
 
-## To run the project
-- Install the <a href="https://flutter.dev/docs/get-started/install">Flutter</a>
-- Create a key for the API <a href="https://www.alphavantage.co/">AlphaVantage</a>
+## Para rodar o projeto
+- Instalar o <a href="https://flutter.dev/docs/get-started/install">Flutter</a>
+- Criar uma chave para a API da <a href="https://www.alphavantage.co/">AlphaVantage</a>
 
-## How to generate the APK
+## Como gerar APK
 
 ```
 flutter build apk --release

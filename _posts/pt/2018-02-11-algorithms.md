@@ -1,20 +1,21 @@
 ---
 layout: post
-title: Algorithms ⌨️
+title: Algoritmos ⌨️
 category: posts
-lang: en
+lang: pt
 tags: [algorithms, performance, course]
 image: /assets/img/projects/sort.png
 accent_image: 
   background: url('/assets/img/projects/quicksort.gif') center/cover
   overlay: true
 description: >
-  Course made with focus in algorithms and code performance.
+  Curso feito focado em algoritmos e performance de código.
 invert_sidebar: true
 ---
 
-# Algorithms ⌨️
+# Algoritmos ⌨️
 
 [Source Code](https://github.com/luigihenrick/topicos-programacao)
 
-Repository with some solved exercises of Algorithms course made at IME-USP.
+
+Repositório com exercicíos resolvidos de curso de análise de algoritmos feito no IME-USP.

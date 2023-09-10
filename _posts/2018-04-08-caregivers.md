@@ -1,23 +1,24 @@
 ---
 layout: post
-title: Cuidadores 👩‍⚕️
+title: Caregivers 👩‍⚕️
 category: posts
+lang: en
 tags: [api, asp.net, mvc]
 image: /assets/img/projects/caregiver.jpg
 accent_image: 
   background: url('/assets/img/projects/caregiver.jpg') center/cover
   overlay: true
 description: >
-  Projeto acadêmico da Fatec-SP desenvolvido em ASP.NET MVC.
-  Objetivo foi criar um sistema para facilitar relacionamento entre cuidadores e pacientes.
+  Academic project for Fatec-SP university developed in ASP.NET MVC.
+  The objective was to create a system to facilitate relationships between caregivers and patients.
 ---
 
-# Cuidadores 👩‍⚕️
+# Caregivers 👩‍⚕️
 
 [Source Code](https://github.com/luigihenrick/dotnet-cuidadores)
 
-## Como rodar
+## How to run
 
-1. Abra o projeto com o Visual Studio;
-2. Restaure os pacotes NuGet;
-3. Inicie o projeto;
+1. Open the project with Visual Studio;
+2. Restore NuGet packages;
+3. Start the project;

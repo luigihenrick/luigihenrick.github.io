@@ -1,10 +1,10 @@
 ---
 layout: project
 title: Stop Online! 🛑
-lang: en
-caption: Stop game created with NodeJS, JQuery and Socket.io.
+lang: pt
+caption: Jogo de stop criado com NodeJS, JQuery e Socket.io.
 description: >
-  Game developed using NodeJS, Socket.io for real-time updates and JQuery for visual updates and special effects.
+  Jogo desenvolvido utilizando NodeJS, Socket.io para atualizações em tempo real e JQuery para atualizações visuais e efeitos dos especiais.
 date: 7 Sep 2018
 image: /assets/img/projects/stop.png
 links:
@@ -17,9 +17,9 @@ accent_image:
 
 # Stop Online! 🛑
 
-[Click here to play! :video_game:](https://fatec-es3-stop.herokuapp.com/)
+[Clique aqui para jogar! :video_game:](https://fatec-es3-stop.herokuapp.com/)
 
-## Technologies
+## Tecnologias
 
 ### Back-end
 
@@ -36,7 +36,7 @@ accent_image:
 - Bootstrap
 - handlebars
 
-## Members
+## Integrantes
 
 - Alexis Diniz Trechau
 - Débora Izumi Kakazu

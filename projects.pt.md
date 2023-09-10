@@ -2,9 +2,9 @@
 layout: projects
 title: Projects
 permalink: projects/
-lang: en
 show_collection: projects
+lang: pt
 description: >
-  Here I'll put some personal projects published.
+  Aqui irei compartilhar alguns projetos pessoais publicados.
 no_groups: true
 ---

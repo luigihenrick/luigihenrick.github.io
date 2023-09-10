@@ -1,10 +1,10 @@
 ---
 layout: project
 title: Chatbot Rose 🤖
-lang: en
-caption: Chatbot developed with NodeJS and IBM watson conversation. 
+lang: pt
+caption: Chatbot desenvolvido com NodeJS e IBM Watson Conversation.
 description: >
-  Chatbot developed from Watson Conversation, using the node to communicate with the service and interface with the user.
+  Chatbot desenvolvido a partir do watson conversation, utilizando o node para comunicação com o serviço e interface com o usuário.
 date: 17 Sep 2019
 image: /assets/img/projects/chatbot.png
 links:
@@ -17,7 +17,7 @@ accent_image:
 
 # Chatbot Rose 🤖
 
-[Demo here! :speech_balloon:](https://chatbot-rose.herokuapp.com/)
+[Demonstração aqui! :speech_balloon:](https://chatbot-rose.herokuapp.com/)
 
 <p>
 <img src="https://raw.githubusercontent.com/luigihenrick/chatbot-rose/master/public/images/login.png" width="32%">
@@ -25,17 +25,17 @@ accent_image:
 <img src="https://raw.githubusercontent.com/luigihenrick/chatbot-rose/master/public/images/lembretes.png" width="32%">
 </p>
 
-## Main features
+## Principais funcionalidades
 
-1. Storing the patient's mood history;
-2. Generation of graphs from collected data;
-3. Reminder function to use with the psychologist.
+1. Armazenamento de histórico de humor do paciente;
+2. Geração de gráficos a partir de dados coletados;
+3. Função de lembretes para utilizar com o psicólogo. 
 
-## How to start the server
+## Como subir o servidor
 
-1. Have NodeJs installed;
-2. Clone this repository;
-3. Inside the repository folder the commands:
+1. Tenha instalado o NodeJs;
+2. Clone este repositório;
+3. Dentro na pasta do repositório os comandos: 
 
 ```js
 npm install
@@ -45,13 +45,13 @@ npm start
 ```
 
 
-4. The message should appear:
+4. Deve aparecer a mensagem mensagem:
 
 ```js
 Running on port 3000...
 ```
 
-5. Access http://localhost:3000/ and enjoy! :smile:
+5. Acesse http://localhost:3000/ e aproveite! :smile:
 
 
 *[SERP]: Search Engine Results Page
