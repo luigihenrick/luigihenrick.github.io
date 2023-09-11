@@ -10,67 +10,67 @@
 
 # Free version
 # ---------------------------------------------------------------------------------------
-home:                  Home
-pages:                 Pages
-posts:                 Posts
-about:                 About
-related_posts:         Related Posts
-other_projects:        Other Projects
-comments:              Comments
-jump_to:               Jump to
-navigation:            Navigation
+home:                  Início
+pages:                 Páginas
+posts:                 Postagens
+about:                 Sobre
+related_posts:         Postagens relacionadas
+other_projects:        Outros projetos
+comments:              Comentários
+jump_to:               Navegar para
+navigation:            Navegar
 social:                Social
 links:                 Links
 links_icon:            'icon-link'
-pagination:            Pagination
-newer:                 Newer
-older:                 Older
-forward:               Forward
-back:                  Back
+pagination:            Paginação
+newer:                 Novos
+older:                 Antigos
+forward:               Próximo
+back:                  Anterior
 permalink:             Permalink
 permalink_icon:        'content-hash'
 templates:             Templates (for web app)
 present:               present
-toc:                   Table of Contents
-note:                  Note
-description:           Description
-search:                Search
-search_placeholder:    Type something…
+toc:                   Tabela de conteúdos
+note:                  Nota
+description:           Descrição
+search:                Busca
+search_placeholder:    Digite algo…
 
-loading:               Loading…
-redirecting:           Redirecting…
+loading:               Carregando…
+redirecting:           Redirecionando…
 
 continue_reading:      >
-  Continue reading <!--post_title-->
+  Continue lendo <!--post_title-->
 
 cookies_banner:
   text:                >
-    This site uses cookies. [Cookies Policy](/cookies-policy/).
+    Este site usa cookies. [Cookies Policy](/cookies-policy/).
   okay:                Okay
 
 not_found:
-  title:               '404: Page Not Found'
+  title:               '404: Página não encontrada'
   message:             |
-    Sorry, we've misplaced that URL or it's pointing to something that doesn't exist.
-    <!--home_link--> to try finding it again.
+    Desculpe, não foi possível encontrar este URL ou ele está apontando para algo que não existe
+    <!--home_link--> para tentar encontrar outra página.
   home_link:           Head back home
 
 offline:
-  title:               'You are Offline'
+  title:               'Você está offline'
   message:             |
-    Sorry, but you appear to be offline and this page has not been prepared for offline viewing.
-    <!--home_link--> to try finding another page.
+    Desculpe, mas parece que você está off-line e esta página não foi preparada para visualização off-line.
+    <!--home_link--> para tentar encontrar outra página.
   home_link:           Head back home
 
 error:
   title:               Error
   message:             |
-    Sorry, an error occurred while loading <!--link-->.
+    Desculpe, ocorreu um erro ao carregar <!--link-->.
 
 # Separators
 # ---------------------------------------------------------------------------------------
-posted:                'Posted'
-last_modified_at:      'Last modified at'
+posted:                'Postado'
+last_modified_at:      'Modificado em'
 last_modified_at_icon: 'icon-history'
 colon:                 ':'
 separator:             '|'
@@ -115,36 +115,36 @@ tinyletter:
     {:.faded}
 
 welcome:
-  more_projects:       See <!--projects_title--> for more
-  more_posts:          See <!--posts_title--> for more
+  more_projects:       Veja <!--projects_title--> para mais
+  more_posts:          Veja <!--posts_title--> para mais
 
 resume:
-  location:            Location
+  location:            Local
   location_separator:  ', '
   email:               Email
-  phone:               Phone
+  phone:               Telefone
   website:             Website
-  work:                Experience
-  work_title:          <!--position--> at <!--company-->
-  highlights:          Highlights
-  volunteer:           Volunteer
-  volunteer_title:     <!--position--> at <!--organization-->
-  education:           Education
-  education_title:     <!--study_type--> in <!--area--> from <!--institution--> <!--gpa-->
-  courses:             Courses
-  awards:              Awards
+  work:                Experiência
+  work_title:          <!--position--> em <!--company-->
+  highlights:          Destaques
+  volunteer:           Voluntariado
+  volunteer_title:     <!--position--> em <!--organization-->
+  education:           Educação
+  education_title:     <!--study_type--> em <!--area--> pela <!--institution--> <!--gpa-->
+  courses:             Cursos
+  awards:              Conquistas
   awards_title:        <!--title--> from <!--awarder-->
-  publications:        Publications
+  publications:        Publicações
   publications_title:  <!--name--> by <!--publisher-->
-  references:          References
-  languages:           Languages
-  fluency:             Fluency
-  skills:              Skills
-  level:               Level
-  interests:           Interests
-  summary:             Summary
-  keywords:            Keywords
-  print:               Print
+  references:          Referências
+  languages:           Idiomas
+  fluency:             Fluência
+  skills:              Habilidades
+  level:               Nível
+  interests:           Interesses
+  summary:             Sumário
+  keywords:            Palavras chave
+  print:               Imprimir
   download_pdf:        PDF
   download_vcf:        vCard
   download_json:       JSON

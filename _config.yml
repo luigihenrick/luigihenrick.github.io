@@ -53,7 +53,7 @@ menu:
     url:               /posts/
   - title:             Projects
     url:               /projects/
-  - title:             Resumé
+  - title:             Resume
     url:               /resume/
   - title:             About
     url:               /about/
@@ -330,6 +330,8 @@ exclude:
   - vendor
   - Gemfile
   - Gemfile.lock
+  - wrangler.toml
+  - netlify.toml
 include:
   - .well-known
   - LICENSE.md
@@ -359,6 +361,12 @@ default_lang: "en"
 exclude_from_localization: ["assets/css", "assets/img"]
 parallel_localization: false
 lang_from_path: true
+
+destination:  ./_site
+plugins_dir:  _plugins
+layouts_dir:  _layouts
+data_dir:     _data
+includes_dir: _includes
 
 sass:
   sourcemap: never
