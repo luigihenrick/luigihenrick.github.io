@@ -168,3 +168,10 @@ resume:
     interests:         icon-heart
 
 tagline: Desenvolvedor de software.
+
+titles:
+  About:        Sobre
+  Posts:        Postagens
+  Projects:     Projetos
+  Resume:       Currículo
+  Language:     Linguagem
