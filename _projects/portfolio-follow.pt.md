@@ -2,6 +2,7 @@
 layout: project
 title: Portfolio Follow 📈
 lang: pt
+permalink: portfolio-follow/
 caption: App desenvolvido em .NET Core e Flutter para acompanhar sua carteira de ações.
 description: >
   Aplicativo criado com intuito de centralizar a visualização de diversos investimentos e acompanhar as váriações em sua carteira em um único lugar.

@@ -2,13 +2,14 @@
 layout: project
 title: Chat 📫
 lang: pt
+permalink: nodejs-chat/
 caption: Simples chat feito em NodeJs utilizando Socket.io.
 description: >
   Simples chat feito em NodeJs utilizando Socket.io.
 date: 12 Feb 2018
 image: /assets/img/projects/nodechat.png
 links:
-  - title: Try it!
+  - title: Teste!
     url: https://luigihenrick-chat.herokuapp.com/
 accent_image: 
   background: url('/assets/img/projects/nodechat.png') center/10%

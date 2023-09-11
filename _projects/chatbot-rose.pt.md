@@ -2,13 +2,14 @@
 layout: project
 title: Chatbot Rose 🤖
 lang: pt
+permalink: chatbot-rose/
 caption: Chatbot desenvolvido com NodeJS e IBM Watson Conversation.
 description: >
   Chatbot desenvolvido a partir do watson conversation, utilizando o node para comunicação com o serviço e interface com o usuário.
 date: 17 Sep 2019
 image: /assets/img/projects/chatbot.png
 links:
-  - title: Try it!
+  - title: Teste!
     url: https://chatbot-rose.herokuapp.com/
 accent_image: 
   background: rgb(56, 128, 231)

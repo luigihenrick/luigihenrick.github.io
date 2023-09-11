@@ -2,13 +2,14 @@
 layout: project
 title: Stop Online! 🛑
 lang: pt
+permalink: stop-online/
 caption: Jogo de stop criado com NodeJS, JQuery e Socket.io.
 description: >
   Jogo desenvolvido utilizando NodeJS, Socket.io para atualizações em tempo real e JQuery para atualizações visuais e efeitos dos especiais.
 date: 7 Sep 2018
 image: /assets/img/projects/stop.png
 links:
-  - title: Try it!
+  - title: Teste!
     url: https://fatec-es3-stop.herokuapp.com/
 accent_image: 
   background: url('/assets/img/projects/stop-bg.png') center/10%
