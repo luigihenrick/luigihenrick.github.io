@@ -2,6 +2,7 @@
 layout: project
 title: Snake! 🐍
 lang: en
+permalink: snake-game/
 caption: Snake game created with HTML, CSS and JavaScript.
 description: >
   Game developed entirely using javascript, it was created to test my knowledge and deliver something that was fun and useful.

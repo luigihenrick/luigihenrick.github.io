@@ -2,6 +2,7 @@
 layout: project
 title: Chat 📫
 lang: en
+permalink: nodejs-chat/
 caption: Simple chat made in NodeJs using Socket.io.
 description: >
   Simple chat made in NodeJs using Socket.io.

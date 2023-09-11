@@ -2,6 +2,7 @@
 layout: project
 title: Stop Online! 🛑
 lang: en
+permalink: stop-online/
 caption: Stop game created with NodeJS, JQuery and Socket.io.
 description: >
   Game developed using NodeJS, Socket.io for real-time updates and JQuery for visual updates and special effects.

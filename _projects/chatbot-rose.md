@@ -2,6 +2,7 @@
 layout: project
 title: Chatbot Rose 🤖
 lang: en
+permalink: chatbot-rose/
 caption: Chatbot developed with NodeJS and IBM watson conversation. 
 description: >
   Chatbot developed from Watson Conversation, using the node to communicate with the service and interface with the user.

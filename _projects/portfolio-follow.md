@@ -2,6 +2,7 @@
 layout: project
 title: Portfolio Follow 📈
 lang: en
+permalink: portfolio-follow/
 caption: App developed with .NET Core and Flutter to follow your stock wallet.
 description: >
   Application created in order to centralize the visualization of several investments and follow the variations in your portfolio in a single place.
