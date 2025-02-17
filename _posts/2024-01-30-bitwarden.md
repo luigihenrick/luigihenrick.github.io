@@ -6,7 +6,7 @@ lang: en
 tags: [dev, host, local, lab]
 image: /assets/img/posts/bitwarden-logo.jpg
 accent_image: 
-  background: url('/assets/img/posts/bitwarden.svg') center/25%
+  background: url('/assets/img/posts/vaultwarden.svg') center/25%
   overlay: true
 description: >
   You can entirely host your own password vault!
@@ -52,3 +52,9 @@ services:
 ```
 
 And that's it for this post, my initial configuration left the server available only on the local network, but to have my password vault available from anywhere I configured a Cloudflare tunnel which I will discuss how to configure in the following post.
+
+Sponsor the Bitwarden:
+https://github.com/bitwarden
+
+And the Vaultwarden:
+https://github.com/dani-garcia/vaultwarden

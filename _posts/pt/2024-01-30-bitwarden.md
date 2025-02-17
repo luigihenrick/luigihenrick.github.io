@@ -2,11 +2,11 @@
 layout: post
 title: Bitwarden (Gerenciador de senhas)! 🗄️
 category: posts
-lang: en
+lang: pt
 tags: [dev, host, local, lab]
 image: /assets/img/posts/bitwarden-logo.jpg
 accent_image: 
-  background: url('/assets/img/posts/bitwarden.svg') center/20%
+  background: url('/assets/img/posts/vaultwarden.svg') center/20%
   overlay: true
 description: >
   Tenha o total controle de suas senhas!
@@ -54,3 +54,9 @@ services:
 ```
 
 E por esse post é isso, minha configuração inicial deixei disponível o server somente na rede local, porém para ter o meu cofre de senha disponível de qualquer lugar configurei um tunnel da cloudflare que abordarei como configurar no post a seguir.
+
+Patrocinem o Bitwarden:
+https://github.com/bitwarden
+
+E o Vaultwarden:
+https://github.com/dani-garcia/vaultwarden
