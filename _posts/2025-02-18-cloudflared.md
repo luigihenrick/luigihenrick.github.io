@@ -22,8 +22,8 @@ The cloudflare tunnel works in a similar way to ngrok, for those who have alread
 To start, if you've read other posts, you should know where this starts, yes, docker! The Cloudflare website itself provides the command to create the tunnel with its token associated with it, follow this path within the website's dashboard:
 
 <p>
-<img src="/assets/img/posts/cloudflared-home.png">
-<img src="/assets/img/posts/cloudflared-zero-trust.png">
+<img src="https://raw.githubusercontent.com/luigihenrick/luigihenrick.github.io/refs/heads/master/assets/img/posts/cloudflare-home.png">
+<img src="https://raw.githubusercontent.com/luigihenrick/luigihenrick.github.io/refs/heads/master/assets/img/posts/cloudflare-zero-trust.png">
 </p>
 
 
@@ -34,7 +34,7 @@ docker run cloudflare/cloudflared:latest tunnel --no-autoupdate run --token eyJh
 
 After creating your tunnel, you should be able to see that it is online and healthy, as in the following image:
 <p>
-<img src="/assets/img/posts/cloudflare-healthy.jpg">
+<img src="https://raw.githubusercontent.com/luigihenrick/luigihenrick.github.io/refs/heads/master/assets/img/posts/cloudflare-healthy.png">
 </p>
 
 The next step is to create a forwarding rule between the internet and your local network, to do this, follow this path:
@@ -42,13 +42,13 @@ The next step is to create a forwarding rule between the internet and your local
 3 dots > Configure > Public Hostname
 
 <p>
-<img src="/assets/img/posts/cloudflare-forward.jpg">
+<img src="https://raw.githubusercontent.com/luigihenrick/luigihenrick.github.io/refs/heads/master/assets/img/posts/cloudflare-forward.png">
 </p>
 
 And to configure your first endpoint, you must fill in the following information:
 
 <p>
-<img src="/assets/img/posts/cloudflare-public-hostname.jpg">
+<img src="https://raw.githubusercontent.com/luigihenrick/luigihenrick.github.io/refs/heads/master/assets/img/posts/cloudflare-public-hostname.png">
 </p>
 
 After making the configurations, the service should be available by accessing the link that I configured in the domain session. One note is that I was unable to use the tunnel to export a UDP service, only HTTP and TCP. If you know of any alternative, please leave a comment and, until next time! 🎇

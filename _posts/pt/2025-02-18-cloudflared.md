@@ -22,10 +22,9 @@ O cloudflare tunnel funciona semelhante ao ngrok, para quem já teve com contato
 Para iniciar, se já leu outros posts deve saber onde isso começa, sim, docker! O próprio site da cloudflare disponibiliza o commando para criação do tunnel já com seu token associado a ele se seguir este caminho dentro do dashboard do site:
 
 <p>
-<img src="/assets/img/posts/cloudflare-home.png">
-<img src="/assets/img/posts/cloudflare-zero-trust.png">
+<img src="https://raw.githubusercontent.com/luigihenrick/luigihenrick.github.io/refs/heads/master/assets/img/posts/cloudflare-home.png">
+<img src="https://raw.githubusercontent.com/luigihenrick/luigihenrick.github.io/refs/heads/master/assets/img/posts/cloudflare-zero-trust.png">
 </p>
-
 
 At the last step you should get the token to create your docker container
 ```
@@ -34,7 +33,7 @@ docker run cloudflare/cloudflared:latest tunnel --no-autoupdate run --token eyJh
 
 Após criar o seu tunnel deve ser possível ver que ele está online e saudável, como na imagem a seguir:
 <p>
-<img src="/assets/img/posts/cloudflare-healthy.jpg">
+<img src="https://raw.githubusercontent.com/luigihenrick/luigihenrick.github.io/refs/heads/master/assets/img/posts/cloudflare-healthy.png">
 </p>
 
 O próximo passo é criar uma regra de encaminhamento entre a internet e sua rede local, para isso siga este caminho:
@@ -42,13 +41,14 @@ O próximo passo é criar uma regra de encaminhamento entre a internet e sua red
 3 pontos > Configure > Public Hostname
 
 <p>
-<img src="/assets/img/posts/cloudflare-forward.jpg">
+<img src="https://raw.githubusercontent.com/luigihenrick/luigihenrick.github.io/refs/heads/master/assets/img/posts/cloudflare-forward.png">
 </p>
 
 E para configurar seu primeiro endpoint você deve preencher as seguintes informações:
 
 <p>
-<img src="/assets/img/posts/cloudflare-public-hostname.jpg">
+<img src="https://raw.githubusercontent.com/luigihenrick/luigihenrick.github.io/refs/heads/master/assets/img/posts/cloudflare-public-hostname.png">
 </p>
+
 
 Após feitas as configurações já deve estar disponível o serviço acessando o link que configurei na sessão de domínio, uma observação somente é que não consegui utilizar o tunnel para expor um serviço UDP, somente HTTP e TCP, caso conheça alguma alternativa por favor deixe nos comentários e, até a próxima! 🎇
