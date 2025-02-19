@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Bitwarden (Password manager)! 🗄️
+title: Bitwarden (Password manager)! 🔒
 category: posts
 lang: en
 tags: [dev, host, local, lab]

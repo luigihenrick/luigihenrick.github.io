@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Bitwarden (Gerenciador de senhas)! 🗄️
+title: Bitwarden (Gerenciador de senhas)! 🔒
 category: posts
 lang: pt
 tags: [dev, host, local, lab]
