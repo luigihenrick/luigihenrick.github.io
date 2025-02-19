@@ -23,6 +23,7 @@ To start, if you've read other posts, you should know where this starts, yes, do
 
 <p>
 <img src="https://raw.githubusercontent.com/luigihenrick/luigihenrick.github.io/refs/heads/master/assets/img/posts/cloudflare-home.png">
+<br/>
 <img src="https://raw.githubusercontent.com/luigihenrick/luigihenrick.github.io/refs/heads/master/assets/img/posts/cloudflare-zero-trust.png">
 </p>
 
