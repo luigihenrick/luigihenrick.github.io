@@ -10,8 +10,7 @@ basics:
   summary: >
     Professional with over eight years of experience as a developer.
     Mainly worked in the financial market in large-scale and global products. With experience in small and big companies such as Santander Bank, Itaú Bank, XP Inc and some others.
-      - Experience as a leader;
-      - Experience building new apps from scratch, developing solution architecture, backend systems, databases,infrastructure, and cloud computing.
+      - Experience building new apps from scratch, developing solution architecture, backend systems, databases, infrastructure, and cloud computing.
       - Knowledge in design patterns and best practices.
   location:
     city: "Lisbon"
@@ -120,7 +119,11 @@ skills:
     keywords:
       - "Azure"
       - "AWS"
+      - "Docker"
   - name: "Design Patterns"
+    keywords:
+      - "Microservices"
+      - "Event-driven architecture"
 languages:
   - language: "Português (Brasil)"
     fluency: "Native speaker"
