@@ -47,7 +47,7 @@ work:
       - "Arquitetura de sistema crítico de alertas para detectar e responder a incidentes, acionando comandos automatizados."
       - "Design de APIs de alta disponibilidade para integração de dispositivos IoT, garantindo fluxo de dados confiável entre veículos, serviços em nuvem e aplicativos do cliente."
       - "Mentoria de engenheiros juniores e colaboração com equipes multifuncionais (firmware, DevOps) para otimizar o desempenho e a escalabilidade do sistema."
-  - company: "Adyou - Plataforma de mídia social e doação"
+  - company: "Adyou - Rede social & Doações"
     position: "Technical Lead"
     website: "https://www.adyou.app/"
     startDate: "2020-11-01"
