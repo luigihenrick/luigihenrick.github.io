@@ -24,3 +24,7 @@ applause-button {
     visibility: hidden;
   }
 }
+
+@media print {
+  @page { margin: 5rem 6rem 3rem; }
+}

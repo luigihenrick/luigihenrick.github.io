@@ -5,14 +5,14 @@ basics:
   name: "Luigi Henrick"
   label: "Senior Software Developer"
   picture: "/assets/img/me.jpg"
-  email: "luigihenrick@gmail.com"
   phone: "(+351) 912 230 343"
+  email: "luigihenrick@gmail.com"
+  website: "https://luigihenrick.github.io/"
   summary: >
-    Professional with over eight years of experience as a developer.
-    Mostly worked in the financial market in large-scale products. 
-      - Experience in big companies such as Santander Bank, Itaú Bank, XP Inc.
-      - Building new apps from scratch, developing solution architecture, backend systems, databases, infrastructure, and cloud computing.
+    Professional with over eight years of experience as a developer. <br>
+    Mostly worked in the financial market in large-scale products. <br>
       - Knowledge in design patterns and best practices.
+      - Building new apps from scratch, backend systems, databases, infrastructure, and cloud computing.
   location:
     city: "Lisbon"
     countryCode: "PT"
@@ -30,7 +30,7 @@ work:
     startDate: "2022-05-01"
     endDate: ""
     summary: >
-      (Project: Santander Bank – Financial Systems Integration)
+      (Project: Santander Bank – Financial Systems Integration) <br>
       Development of scalable backend systems integrating real-time financial market data and and third-party services, enabling price updates and seamless trading.
     highlights:
       - "Implementation of event-driven microservices architecture to improve system reliability, performance and maintainability."
@@ -63,8 +63,8 @@ work:
     startDate: "2020-02-01"
     endDate: "2021-02-01"
     summary: >
-      Fintech/Banking (Project: Íon Investment Platform)
-      Developed APIs for digital investment platform, onboarding 1M+ users.
+      Fintech/Banking (Project: Íon Digital Investment Platform) <br>
+      APIs designed for onboarding, by seamlessly integrating 1M+ users.
     highlights:
       - "Worked on integration of new cloud providers (AWS) to the bank security layer"
       - "Contributed to Android app development (Kotlin) for portfolio management, rated 4.8/5 on app stores."
@@ -121,6 +121,9 @@ skills:
       - "Azure"
       - "AWS"
       - "Docker"
+  - name: "Algorithms"
+    keywords:
+      - "Performance"
   - name: "Design Patterns"
     keywords:
       - "Microservices"

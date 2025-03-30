@@ -5,14 +5,14 @@ basics:
   name: "Luigi Henrick"
   label: "Senior Software Developer"
   picture: "/assets/img/me.jpg"
-  email: "luigihenrick@gmail.com"
   phone: "(+351) 912 230 343"
+  email: "luigihenrick@gmail.com"
+  website: "https://luigihenrick.github.io/"
   summary: >
-    Profissional com mais de oito anos de experiência como desenvolvedor. 
-    Trabalhei principalmente no mercado financeiro em produtos em grande escala. 
-      - Experiência em grandes empresas como Banco Santander, Banco Itaú, XP Inc.
-      - Construção de novos aplicativos do zero, desenvolvendo arquitetura, sistemas backend, bancos de dados, infraestrutura e computação em nuvem.
+    Profissional com mais de oito anos de experiência como desenvolvedor. <br>
+    Trabalhei principalmente no mercado financeiro em produtos em grande escala. <br>
       - Conhecimento em design patterns e melhores práticas.
+      - Construção de novos aplicativos do zero, sistemas backend, bancos de dados, infraestrutura e computação em nuvem.
   location:
     city: "Lisboa"
     countryCode: "PT"
@@ -30,7 +30,7 @@ work:
     startDate: "2022-05-01"
     endDate: ""
     summary: >
-      (Projeto: Banco Santander – Integração de Sistemas Financeiros)
+      (Projeto: Banco Santander – Integração de Sistemas Financeiros) <br>
       Desenvolvimento de sistemas de backend escaláveis ​integrando dados do mercado financeiro em tempo real e serviços externos, permitindo atualizações de preço e comércio sem interrupções.
     highlights:
       - "Implementação de arquitetura de microsserviços orientada a eventos para aprimorar a confiabilidade, o desempenho e a manutenibilidade do sistema."
@@ -63,8 +63,8 @@ work:
     startDate: "2020-02-01"
     endDate: "2021-02-01"
     summary: >
-      Fintech/Banking (Projeto: Íon Plataforma de Investimentos)
-      Desenvolvimento de APIs para plataforma de investimento digital integrando mais de 1 milhão de usuários.
+      Fintech/Banking (Projeto: Íon Plataforma de Investimentos Digital) <br>
+      Desenvolvimento de APIs para onboarding integrando mais de 1M+ de usuários.
     highlights:
       - "Integração de novos provedores de nuvem (AWS) à camada de segurança do banco."
       - "Contribuição para o desenvolvimento de aplicativo Android (Kotlin) para gerenciamento de portfólio, avaliado em 4,8/5 nas lojas de aplicativos."
@@ -121,6 +121,9 @@ skills:
       - "Azure"
       - "AWS"
       - "Docker"
+  - name: "Algorithms"
+    keywords:
+      - "Performance"
   - name: "Design Patterns"
     keywords:
       - "Microservices"

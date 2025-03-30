@@ -71,17 +71,6 @@
     <dd class="bold">{{ basics.maritalStatus }}</dd>
   {% endif %}
 
-  {% if basics.email.size > 0 %}
-    <dt class="faded">
-      <span class="{{ icons.email | default:'icon-mail2' }}" title="{{ strings.resume.email | default:'Email' }}"></span>
-      <span class="sr-only">{{ strings.resume.email | default:"Email" }}</span>
-    </dt>
-    <dd class="bold">
-      <meta property="email" content="{{ basics.email }}"/>
-      <a href="mailto:{{ basics.email }}" class="external no-print-link email u-email">{{ basics.email }}</a>
-    </dd>
-  {% endif %}
-
   {% if basics.phone.size > 0 %}
     <dt class="faded">
       <span class="{{ icons.phone | default:'icon-phone' }}" title="{{ strings.resume.phone | default:'Phone' }}"></span>
@@ -90,6 +79,17 @@
     <dd class="bold">
       <meta property="telephone" content="{{ basics.phone }}"/>
       <a href="tel:{{ basics.phone | replace:' ','' }}" class="external no-print-link tel p-tel">{{ basics.phone }}</a>
+    </dd>
+  {% endif %}
+
+  {% if basics.email.size > 0 %}
+    <dt class="faded">
+      <span class="{{ icons.email | default:'icon-mail2' }}" title="{{ strings.resume.email | default:'Email' }}"></span>
+      <span class="sr-only">{{ strings.resume.email | default:"Email" }}</span>
+    </dt>
+    <dd class="bold">
+      <meta property="email" content="{{ basics.email }}"/>
+      <a href="mailto:{{ basics.email }}" class="external no-print-link email u-email">{{ basics.email }}</a>
     </dd>
   {% endif %}
 
