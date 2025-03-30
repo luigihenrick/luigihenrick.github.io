@@ -1,15 +1,26 @@
 // applause-button
 
 applause-button {
-    width: 80px;
-    height: 80px;
-    margin: 0 auto;
-  
-    .count-container {
-      color: inherit;
-    }
+  width: 80px;
+  height: 80px;
+  margin: 0 auto;
+
+  .count-container {
+    color: inherit;
   }
+}
+
+// Utterances
 
 .utterances {
   max-width: 100%;
+}
+
+// Printing
+
+@media print {
+  a[href]:after {
+    display: none;
+    visibility: hidden;
+  }
 }
