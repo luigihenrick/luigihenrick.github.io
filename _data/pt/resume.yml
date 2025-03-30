@@ -6,10 +6,13 @@ basics:
   label: "Senior Software Developer"
   picture: "/assets/img/me.jpg"
   email: "luigihenrick@gmail.com"
-  phone: "+351 912 230 343"
+  phone: "(+351) 912 230 343"
   summary: >
-    Profissional com mais de sete anos de experiência como desenvolvedor. Atuei principalmente no mercado financeiro entregando produtos para sistemas distribuídos e de grande escala.
-    Tenho experiência em pequenas e grandes empresas como banco Itaú, XP Inc, e como consultor do banco Original e Tecpay (sistema de ponto de venda).
+    Profissional com mais de oito anos de experiência como desenvolvedor. 
+    Trabalhei principalmente no mercado financeiro em produtos em grande escala. 
+      - Experiência em grandes empresas como Banco Santander, Banco Itaú, XP Inc.
+      - Construção de novos aplicativos do zero, desenvolvendo arquitetura, sistemas backend, bancos de dados, infraestrutura e computação em nuvem.
+      - Conhecimento em design patterns e melhores práticas.
   location:
     city: "Lisboa"
     countryCode: "PT"
@@ -21,99 +24,74 @@ basics:
       username: "luigihenrick"
       url: "https://www.linkedin.com/in/luigihenrick/"
 work:
-  - company: "Novabase"
+  - company: "Neotalent Conclusion"
     position: "Senior Software Developer"
-    website: "https://www.novabase.com/en/"
+    website: "https://neotalentconclusion.com/"
     startDate: "2022-05-01"
     endDate: ""
-    summary: 
+    summary: >
+      (Projeto: Banco Santander – Integração de Sistemas Financeiros)
+      Desenvolvimento de sistemas de backend escaláveis ​integrando dados do mercado financeiro em tempo real e serviços externos, permitindo atualizações de preço e comércio sem interrupções.
     highlights:
-      - "Experience as a leader"
-      - "Experience building new apps from scratch"
-      - "Solution architecture"
+      - "Implementação de arquitetura de microsserviços orientada a eventos para aprimorar a confiabilidade, o desempenho e a manutenibilidade do sistema."
+      - "Otimização de processamento de dados em tempo real para grande volume de transações financeiras, garantindo respostas de baixa latência."
+      - "Colaboração projetando APIs e otimizando integrações de serviços, melhorando a interoperabilidade do sistema."
   - company: "Mottu"
     position: "Senior Software Developer"
     website: "https://mottu.com.br/"
     startDate: "2021-01-01"
     endDate: "2022-05-01"
-    summary: 
+    summary: >
+      Liderança no desenvolvimento de backend para uma plataforma de rastreamento de veículos em larga escala, monitorando milhares de motocicletas em tempo real com GPS e telemetria IoT.
     highlights:
-      - "Experience as a leader"
-      - "Experience building new apps from scratch"
-      - "Solution architecture"
-  - company: "adyou"
+      - "Arquitetura de sistema crítico de alertas para detectar e responder a incidentes, acionando comandos automatizados."
+      - "Design de APIs de alta disponibilidade para integração de dispositivos IoT, garantindo fluxo de dados confiável entre veículos, serviços em nuvem e aplicativos do cliente."
+      - "Mentoria de engenheiros juniores e colaboração com equipes multifuncionais (firmware, DevOps) para otimizar o desempenho e a escalabilidade do sistema."
+  - company: "Adyou - Plataforma de mídia social e doação"
     position: "Senior Software Developer"
     website: "https://www.adyou.app/"
     startDate: "2020-11-01"
     endDate: "2021-09-01"
     summary: >
-      Atuei como líder técnico sendo responsável por criar um novo aplicativo do zero incluindo toda a arquitetura, infraestrutura, pipelines de build e release, comunicação entre serviços pensando em performance e custos de nuvem.
-      Além disso, estive no meio entre a área de negócios e a equipe de TI ajudando a priorizar novas funcionalidades, pesquisar novas tecnologias e manter a equipe motivada.
+      Arquitetura e lançamento de app de mídia social focado em caridade, do conceito à produção.
     highlights:
-      - "Experience as a leader"
-      - "Experience building new apps from scratch"
-      - "Solution architecture"
+      - "Construção de ecossistema de microsserviços nativos da nuvem (Azure DevOps) com pipelines de CI/CD automatizados."
+      - "Liderança de equipe e priorização de funcionalidades de alto impacto.Plataforma"
   - company: "Itaú Unibanco"
     position: "System Software Engineer"
     website: "https://www.itau.com.br/"
     startDate: "2020-02-01"
     endDate: "2021-02-01"
     summary: >
-      Trabalhei em um novo projeto do Itaú chamado Íon, é uma nova plataforma de investimentos para que os clientes tenham mais opções e uma melhor experiência de investimento. Tudo isso aliado a toda a segurança de um dos maiores bancos da América Latina.
-      Tecnologias utilizadas: dotnet core; C#, WebAPIs, nuvem AWS; Kotlin; Andróide; GIT.
+      Fintech/Banking (Projeto: Íon Plataforma de Investimentos)
+      Desenvolvimento de APIs para plataforma de investimento totalmente digital integrando mais de 1 milhão de usuários.
     highlights:
-      - "Authentication Flow"
-      - "Kotlin for Android"
-      - "AWS"
+      - "Integração de novos provedores de nuvem (AWS) à camada de segurança do banco."
+      - "Contribuição para o desenvolvimento de aplicativo Android (Kotlin) para gerenciamento de portfólio, avaliado em 4,8/5 nas lojas de aplicativos."
   - company: "XP Inc"
     position: "Software Developer"
     website: "https://xpi.com.br/"
     startDate: "2018-11-01"
     endDate: "2019-11-01"
     summary: >
-      Desenvolvi sistemas backend para produtos estruturados para se tornarem escaláveis ​​e alcançarem mais clientes. Entre as principais entregas estão enviar propostas de opções para o celular do cliente, criar modelos de propostas e mostrar esses modelos nas posições do cliente.
-      Tecnologias utilizadas: Microservices architecture; WebAPIs; Message Queues; Azure DevOps; ServiceFabric; .NET Core; C#; AngularJS; Windows Communication Foundation (WCF); SQL Server; Oracle.
+      Desenvolvimento de sistemas de backend para produtos financeiros com foco em escalabilidade e desempenho.
     highlights:
-      - "Microservices"
-      - "Message Queue"
-      - "CQRS"
+      - "Sistemas de backend reformulados para produtos financeiros estruturados, aumentando a adoção do cliente por meio de notificações push e ferramentas de visualização de dados."
+      - "Implementação de um sistema de agregação de transações de alto performance para processar milhões de transações diárias em pacotes de investimento estruturados, permitindo a consolidação de portfólio para milhares de clientes antes da abertura do mercado."
   - company: "Beyond Solutions"
     position: "Junior Software Developer"
     website: "https://www.imaginebeyond.com.br/"
     startDate: "2018-02-01"
     endDate: "2018-11-01"
     summary: >
-      Trabalhei como consultor na maior corretora independente da América Latina na equipe responsável pelo desenvolvimento da nova plataforma de clientes de produtos de notas estruturadas e outras entregas importantes como pedidos por notificação push e uma nova arquitetura backend para suportar um grande número de solicitações .
-      Principais tecnologias utilizadas: Microservices architecture; CQRS; WebAPIs; Visual Studio Team Services (Azure DevOps); Continuous Integration; C#; Oracle; SQL Server; Agile Methodologies (Scrum); Git.
-    highlights:
-      - "Azure Cloud"
-      - "Oracle"
-      - "Scrum"
+      Desenvolvimento de sistemas de backoffice para produtos financeiros utilizando .Net framework, .NET core, Angular e integração com alguns projetos legados.
   - company: "TurnIT"
     position: "Web Developer Internship"
     website: "http://turnit.com.br/"
     startDate: "2017-03-01"
     endDate: "2018-02-01"
     summary: >
-      Participei de todas as etapas de soluções web desde a prospecção de clientes até a análise e desenvolvimento de sistemas para empresas financeiras como Banco Original, TecPay, Lotus Investments, Moka Invest, entre outras.
-      Tecnologias utilizadas: C#, ASP.NET MVC 4/5, SQL Server 2014, HTML5, JavaScript, jQuery, CSS3, Bootstrap 3, code versioning in Git/Bitbucket.
-    highlights:
-      - ".NET Framework"
-      - "Bootstrap"
-      - "SQL Server"
-  - company: "Ile Fashion"
-    position: "IT Support Technician"
-    website: "https://www.ilefashion.com.br/"
-    startDate: "2015-11-01"
-    endDate: "2017-03-01"
-    summary: >
-      Responsável pela criação de uma aplicação android e serviços web para auxiliar no atendimento ao cliente.
-      Implementação de diversas melhorias na sua infraestrutura de rede incluindo a criação de um VoIP
-      servidor e implementação de telefones IP.
-    highlights:
-      - "Java"
-      - "Apache Server"
-      - "Java for Android"
+      Análise automatizada de risco de crédito para PMEs, reduzindo o tempo de revisão manual usando ASP.NET MVC e SQL.
 education:
   - institution: "Faculdade de Tecnologia de São Paulo"
     area: "System Analysis and Development"
@@ -127,30 +105,26 @@ education:
     endDate: "2015-09-01"
 skills:
   - name: ".NET Core"
-    level: "Master"
     keywords:
       - "C#"
       - "REST API's"
   - name: "Database"
-    level: "Senior"
     keywords:
-      - "SQL Server"
-      - "Redis"
+      - "SQL"
+      - "NoSQL"
   - name: "Message Queue"
-    level: "Intermediate"
     keywords:
       - "RabbitMQ"
-      - "Kafka"
+      - "Redis Pub-Sub"
   - name: "Cloud"
-    level: "Intermediate"
     keywords:
       - "Azure"
       - "AWS"
+      - "Docker"
   - name: "Design Patterns"
-    level: "Intermediate"
     keywords:
       - "Microservices"
-      - "Clean Architecture"
+      - "Event-driven architecture"
 languages:
   - language: "Português (Brasil)"
     fluency: "Native speaker"
