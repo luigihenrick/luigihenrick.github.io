@@ -6,7 +6,7 @@
       </a>
     {% endif %}
     <a class="sidebar-title" href="{{ '/' | relative_url }}"><h2 class="h1">{{ site.short_title | default:site.title }}</h2></a>
-    {% assign text = site.data.strings.tagline | default:site.description %}
+    {% assign text = site.tagline | default:site.description %}
     {% if text %}
       <p class="{% if text.size > 100 %}fine{% endif %}">
         {{ text | markdownify | replace:'<p>','' | replace:'</p>','' }}
@@ -30,5 +30,4 @@
   <div class="sidebar-social">
     {% include components/social.html author=author %}
   </div>
-
 </div>
