@@ -64,7 +64,7 @@ work:
     endDate: "2021-02-01"
     summary: >
       Fintech/Banking (Projeto: Íon Plataforma de Investimentos)
-      Desenvolvimento de APIs para plataforma de investimento totalmente digital integrando mais de 1 milhão de usuários.
+      Desenvolvimento de APIs para plataforma de investimento digital integrando mais de 1 milhão de usuários.
     highlights:
       - "Integração de novos provedores de nuvem (AWS) à camada de segurança do banco."
       - "Contribuição para o desenvolvimento de aplicativo Android (Kotlin) para gerenciamento de portfólio, avaliado em 4,8/5 nas lojas de aplicativos."
