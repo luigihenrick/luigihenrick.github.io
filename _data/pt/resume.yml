@@ -53,7 +53,7 @@ work:
     startDate: "2020-11-01"
     endDate: "2021-09-01"
     summary: >
-      Arquitetura e lançamento de app de mídia social focado em caridade, do conceito à produção.
+      Arquitetura e criação de app de rede social focado em caridade, do desenho à produção.
     highlights:
       - "Construção de ecossistema de microsserviços nativos da nuvem (Azure DevOps) com pipelines de CI/CD automatizados."
       - "Liderança de equipe e priorização de funcionalidades de alto impacto.Plataforma"
