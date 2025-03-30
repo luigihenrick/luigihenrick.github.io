@@ -8,8 +8,14 @@ author1:
   # Used at the bottom of each page and at the top of the `about` layout
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
   about:             |
-    Professional with over eight years of experience as a developer.
-    Mainly worked in the financial market in large-scale and global products.
+    Professional with over eight years of experience as a developer. <br>
+    Mostly worked in the financial market in large-scale products. <br>
+      - Knowledge in design patterns and best practices. 
+      - Building new apps from scratch, developing solution architecture, backend systems, databases, infrastructure, and cloud computing.
+      - Experience in big companies such as: 
+        - Santander Bank (Multinational project)
+        - Itaú Bank (Biggest bank in Latin America)
+        - XP Inc (Investments and Trading platform)
 
   # This photo will be used in the about section
   picture:
@@ -55,7 +61,6 @@ author1:
     # npm:             <username>
     # hackernews:      <username>
     # trello:          <firstnamelastname>
-    # linkedin:        <firstname-lastname-string>
     # xing:            <firstname_lastname_counter>
     # blogger:         <number>
     # delicious:       <username>

@@ -8,8 +8,14 @@ author1:
   # Used at the bottom of each page and at the top of the `about` layout
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
   about:             |
-    Profissional com mais de sete anos de experiência como desenvolvedor. Atuou principalmente no mercado financeiro entregando produtos para sistemas distribuídos e de grande escala.
-    Já trabalhei em pequenas e grandes empresas como banco Itaú, XP Inc, e como consultor do banco Original e Tecpay (sistema de ponto de venda).
+    Profissional com mais de oito anos de experiência como desenvolvedor. <br>
+    Trabalhei principalmente no mercado financeiro em produtos em grande escala. <br>
+      - Conhecimento em design patterns e melhores práticas.
+      - Construção de novos aplicativos do zero, sistemas backend, bancos de dados, infraestrutura e computação em nuvem.
+      - Experiência em grandes empresas como: 
+        - Banco Santander (Projeto multinacional)
+        - Banco Itaú (Maior banco da América Latina)
+        - XP Inc (Plataforma de investimentos e trading)
 
   # This photo will be used in the about section
   picture:
@@ -55,7 +61,6 @@ author1:
     # npm:             <username>
     # hackernews:      <username>
     # trello:          <firstnamelastname>
-    # linkedin:        <firstname-lastname-string>
     # xing:            <firstname_lastname_counter>
     # blogger:         <number>
     # delicious:       <username>
