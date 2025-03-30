@@ -4,7 +4,8 @@ title: Resume
 permalink: resume/
 lang: pt
 description: >
-  Profissional com mais de seis anos de experiência como desenvolvedor. Atuou principalmente no mercado financeiro entregando produtos para sistemas distribuídos e de grande escala. Já trabalhei em pequenas e grandes empresas como banco Itaú, XP Inc, e como consultor do banco Original e Tecpay (sistema de ponto de venda).
+  Profissional com mais de oito anos de experiência como desenvolvedor. 
+  Trabalhei principalmente no mercado financeiro em produtos em grande escala. 
 hide_description: true
 left_column:
   - work

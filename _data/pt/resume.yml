@@ -76,8 +76,8 @@ work:
     summary: >
       Desenvolvimento de sistemas de backend para produtos financeiros com foco em escalabilidade e desempenho.
     highlights:
-      - "Sistemas de backend reformulados para produtos financeiros estruturados, aumentando a adoção do cliente por meio de notificações push e ferramentas de visualização de dados."
-      - "Implementação de um sistema de agregação de transações de alto performance para processar milhões de transações diárias em pacotes de investimento estruturados, permitindo a consolidação de portfólio para milhares de clientes antes da abertura do mercado."
+      - "Sistemas backend reformulados para produtos financeiros estruturados, fluxo de negociação feito por push notification e com visualização gráfica de produtos."
+      - "Implementação de um sistema de agregação de transações de alta performance para processar milhões de transações diárias em pacotes de investimento, permitindo a consolidação de portfólio para milhares de clientes antes da abertura do mercado."
   - company: "Beyond Solutions"
     position: "Junior Software Developer"
     website: "https://www.imaginebeyond.com.br/"
