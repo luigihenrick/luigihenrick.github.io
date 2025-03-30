@@ -22,7 +22,7 @@
 }
 
 @media screen {
-  body, body.light-mode {
+  body.light-mode {
     @include light-mode();
   }
 

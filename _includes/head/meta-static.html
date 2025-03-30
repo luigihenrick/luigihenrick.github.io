@@ -10,4 +10,8 @@
 
 <meta name="application-name" content="{{ site.title }}">
 
-<meta name="generator" content="Hydejack v9.2.1" />
+{% unless site.hydejack.no_theme_color %}
+  <meta name="theme-color" content="{{ theme_color | default:'rgb(8,46,57)' }}">
+{% endunless %}
+
+<meta name="generator" content="Hydejack v9.1.4" />
